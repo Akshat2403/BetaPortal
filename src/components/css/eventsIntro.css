@@ -1,0 +1,49 @@
+@font-face {
+  font-family: HeadingPro;
+  src: url(../fonts/Heading-Pro-Bold-trial.ttf);
+}
+
+@font-face {
+  font-family: DMSans;
+  src: url(../fonts/DMSans-Regular.ttf);
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 41vw;
+  background-color: #552495;
+  background-image: url("../images/events_intro_bg.svg");
+  background-position: 0px 21vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fcfcfc;
+  padding-top: 7.5vw;
+  margin-bottom: 10vw;
+}
+
+.heading {
+  font-family: HeadingPro;
+  font-size: 6vw;
+}
+
+.text {
+  width: 80vw;
+  margin: 0 10vw;
+}
+
+.description {
+  margin-top: 1.6vw;
+  font-family: DMSans;
+  font-size: 2vw;
+  width: 70vw;
+}
+
+.down-arrow {
+  height: 3.5vw;
+  position: absolute;
+  bottom: 4vw;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
