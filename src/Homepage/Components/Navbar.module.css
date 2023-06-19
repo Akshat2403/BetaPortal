@@ -1,0 +1,39 @@
+.mainnavclass
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 3vw;
+    background-image: url('../Images/bgd.png');
+}
+ .leftside
+{
+    display: flex;
+    padding-left: 7vw;
+    
+}
+a{
+    font-size: 1vw;
+}
+.rightside
+{
+    display: flex;
+    
+ } 
+/*
+ 
+  */
+
+/* .rightside
+{
+    display: flex;
+    
+} */
+ .individual
+ {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    /* padding-top: 5vw; */
+ }
