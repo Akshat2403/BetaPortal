@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Carousel from "./Carousel";
 import EventsComponent from "./eventsComponent";
 import EventsIntro from "./eventsIntro";
+import Footer from "./footer";
 
 const images1 = [
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
@@ -27,6 +28,7 @@ class EventsPage extends Component {
           <EventsComponent images={images1} title={title4} />
           <EventsComponent images={images1} title={title5} />
         </div>
+        <Footer />
       </React.Fragment>
     );
   }

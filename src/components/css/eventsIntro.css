@@ -8,34 +8,40 @@
   src: url(../fonts/DMSans-Regular.ttf);
 }
 
-.container {
+.container-comp {
   position: relative;
   width: 100vw;
-  height: 41vw;
+  height: 100vh;
   background-color: #552495;
   background-image: url("../images/events_intro_bg.svg");
-  background-position: 0px 21vw;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
   color: #fcfcfc;
   padding-top: 7.5vw;
   margin-bottom: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.heading {
+.heading-comp {
   font-family: HeadingPro;
-  font-size: 6vw;
+  font-size: 14vh;
 }
 
-.text {
+.text-comp {
   width: 80vw;
-  margin: 0 10vw;
+  height: fit-content;
+  margin: auto;
+  position: relative;
+  top: -20vh;
 }
 
 .description {
   margin-top: 1.6vw;
   font-family: DMSans;
-  font-size: 2vw;
+  font-size: 4vh;
   width: 70vw;
 }
 
@@ -46,4 +52,15 @@
   left: 0;
   right: 0;
   margin: 0 auto;
+}
+@media (orientation: portrait) {
+  .text-comp {
+    font-size: 7vh;
+  }
+  .description {
+    font-size: 3vh;
+  }
+  .container-comp {
+    background-size: 220vh;
+  }
 }

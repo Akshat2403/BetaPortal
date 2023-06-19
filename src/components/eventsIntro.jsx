@@ -5,9 +5,9 @@ import down_arrow from "./images/down_arrow.svg";
 class EventsIntro extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="text">
-          <div className="heading">EVENTS</div>
+      <div className="container-comp">
+        <div className="text-comp">
+          <div className="heading-comp">EVENTS</div>
           <div className="description">
             Alcheringa has more than 80 events spread across various genres like
             fashion, music, art, sports, etc. They take place during the three
