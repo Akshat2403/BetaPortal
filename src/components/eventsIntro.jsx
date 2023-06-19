@@ -1,10 +1,16 @@
 import React, { Component } from "react";
 import "./css/eventsIntro.css";
 import down_arrow from "./images/down_arrow.svg";
+import { useRef } from "react";
 
-class EventsIntro extends Component {
-  render() {
-    return (
+function EventsIntro() {
+  const ref = useRef(null);
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  return (
+    <React.Fragment>
       <div className="container-comp">
         <div className="text-comp">
           <div className="heading-comp">EVENTS</div>
@@ -16,10 +22,11 @@ class EventsIntro extends Component {
             and goodies.
           </div>
         </div>
-        <img src={down_arrow} className="down-arrow" />
+        <img src={down_arrow} onClick={handleClick} className="down-arrow" />
       </div>
-    );
-  }
+      <div ref={ref} style={{ marginBottom: "10vw" }}></div>
+    </React.Fragment>
+  );
 }
 
 export default EventsIntro;

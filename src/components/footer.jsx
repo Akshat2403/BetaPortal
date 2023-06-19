@@ -28,14 +28,14 @@ class Footer extends Component {
         >
           <div className="flex flex-row justify-between footer-items dm-sans">
             <div style={{ width: "33%" }}>
-              Siddhant Singh- Public Relations Head
+              Anurag Sharma - PR Head
               <br />
-              +91-9310859978
+              +91-70615-20276
               <br />
               <br />
-              Danda Akshara- Public Relations Head
+              Ankit Raj - PR Head
               <br />
-              +91-9908991939
+              +91-83403-49585
               <br />
               <br />
             </div>

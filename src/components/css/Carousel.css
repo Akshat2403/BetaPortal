@@ -5,6 +5,9 @@
   height: 100%;
   border-radius: 5vw;
 }
+.carousel:hover {
+  cursor: pointer;
+}
 
 .carousel-image {
   position: absolute;

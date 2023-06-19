@@ -71,6 +71,9 @@
     transform: translate(0, -50px);
     z-index: -1;
   }
+  .social-icons img {
+    height: 17px !important;
+  }
 }
 
 .flex {
