@@ -4,9 +4,19 @@ import Carousel from "./Carousel";
 import triangle from "./images/purple_triangle.svg";
 import scissors from "./images/events_component_scissors.svg";
 
-const EventsComponent = ({ images, title }) => {
+const openInNewTab = (url) => {
+  const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+  if (newWindow) newWindow.opener = null;
+};
+
+const onClickUrl = (url) => {
+  console.log(url);
+  return () => openInNewTab(url.link);
+};
+
+const EventsComponent = ({ images, title, link }) => {
   return (
-    <div className="one_section">
+    <div className="one_section" onClick={onClickUrl({ link })}>
       <div className="text-crsl">
         <img src={scissors} className="scissors" />
         <img src={triangle} className="purple-tri" />

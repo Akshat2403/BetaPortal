@@ -15,6 +15,7 @@ const title2 = "pronites";
 const title3 = "creators-camp";
 const title4 = "critical-damage";
 const title5 = "informals";
+const link1 = "https://www.youtube.com/";
 
 class EventsPage extends Component {
   render() {
@@ -22,11 +23,11 @@ class EventsPage extends Component {
       <React.Fragment>
         <EventsIntro />
         <div>
-          <EventsComponent images={images1} title={title1} />
-          <EventsComponent images={images1} title={title2} />
-          <EventsComponent images={images1} title={title3} />
-          <EventsComponent images={images1} title={title4} />
-          <EventsComponent images={images1} title={title5} />
+          <EventsComponent images={images1} title={title1} link={link1} />
+          <EventsComponent images={images1} title={title2} link={link1} />
+          <EventsComponent images={images1} title={title3} link={link1} />
+          <EventsComponent images={images1} title={title4} link={link1} />
+          <EventsComponent images={images1} title={title5} link={link1} />
         </div>
         <Footer />
       </React.Fragment>
