@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #EC2227CC;
+    ;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../assets/competitions_hero_mask.svg");
+    background-position: 0vw 25vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    color: #fcfcfc;
+  }
+  .downarrow{
+    width: 6vw;
+    margin-bottom: 4vw;
+  }
+  .heading {
+    font-family: HeadingPro;
+    font-size: 6vw;
+  }
+  .text {
+   margin-top: 10.5vw;
+   
+  }
+  .description {
+    margin-top: 1.6vw;
+    font-family: DMSans;
+    font-size: 2vw;
+    width: 76vw;
+  }

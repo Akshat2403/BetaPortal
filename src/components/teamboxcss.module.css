@@ -1,0 +1,28 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pr{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    margin: 3vw 10vw;
+    gap: 12vw;
+}
+.box{
+    width: 18vw;
+    height: 25vw;
+   background-image: url(../assets/box_img_team.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.crm{
+    display: flex;
+    justify-content: space-around;
+    margin: 3vw 5vw;
+}
+.mun{
+    display: flex;
+    justify-content: space-around;
+    margin: 3vw 24vw;
+}
