@@ -14,7 +14,7 @@ const WordingsImage = () => {
             <div style={{color:'white',fontSize:"1.5vw"}}>
                 North-East India
             </div>
-            <div style={{right:'-68vw',top:'0vw',position:'relative',fontSize:"2vw"}}>
+            <div style={{right:'-56vw',top:'13vw',position:'relative',fontSize:"4vw"}}>
             <Animations></Animations>
             </div>
         </div>

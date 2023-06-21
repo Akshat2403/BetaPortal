@@ -9,31 +9,31 @@ const Header = () => {
             
     <div id="carouselExampleIndicators" class="carousel slide" style={{position:'relative'}}>
         
-      <div class="carousel-indicators" style={{bottom:'1vw',display:'flex',position:'absolute', bottom:'-0.9vw', padding:'1vw',marginBottom:"0.1vw"}} >
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" fdprocessedid="9vddhq" style={{borderRadius:'100%', width:'0.7vw',height:'0.7vw',marginLeft:"0.2vw",marginRight:"0.2vw"}} ></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" fdprocessedid="ghkrc" style={{borderRadius:'100%', width:"0.7vw",height:"0.7vw",marginLeft:"0.2vw",marginRight:"0.2vw"}}></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" fdprocessedid="5anvz7" style={{borderRadius:'100%', width:"0.7vw",height:"0.7vw",marginLeft:"0.2vw",marginRight:"0.2vw"}}></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3" fdprocessedid="5anvz7" style={{borderRadius:'100%', width:"0.7vw",height:"0.7vw",marginLeft:"0.2vw",marginRight:"0.2vw"}}></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3" fdprocessedid="5anvz7" style={{borderRadius:'100%', width:"0.7vw",height:"0.7vw",marginLeft:"0.2vw",marginRight:"0.2vw"}}></button>
+      <div class="carousel-indicators" style={{display:'flex',position:'absolute', bottom:'3vw', padding:'1vw',marginBottom:"2vw"}} >
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" fdprocessedid="9vddhq" style={{borderRadius:'100%', width:'1vw',height:'1vw',marginLeft:"1vw",marginRight:"1vw"}} ></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" fdprocessedid="ghkrc" style={{borderRadius:'100%', width:"1vw",height:"1vw",marginLeft:"1vw",marginRight:"1vw"}}></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" fdprocessedid="5anvz7" style={{borderRadius:'100%', width:"1vw",height:"1vw",marginLeft:"1vw",marginRight:"1vw"}}></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3" fdprocessedid="5anvz7" style={{borderRadius:'100%', width:"1vw",height:"1vw",marginLeft:"1vw",marginRight:"1vw"}}></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3" fdprocessedid="5anvz7" style={{borderRadius:'100%', width:"1vw",height:"1vw",marginLeft:"1vw",marginRight:"1vw"}}></button>
       </div>
       <div class="carousel-inner">
       
         <div class="carousel-item active" >
           {/* <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg> */}
-          <img src={alcherimg} style={{width:'100vw',height:'30vw'}} alt="" />
-          <div style={{position:'absolute', right:'1vw', top:'2vw'}}>
+          <img src={alcherimg} style={{width:'100vw',height:'100vh'}} alt="" />
+          <div style={{position:'absolute', right:'1vw', top:'3vw'}}>
             <WordingsImage></WordingsImage>
         </div>
         </div>
         <div class="carousel-item">
-        <img src={alcherimg} style={{width:'100vw',height:'30vw'}} alt="" />
+        <img src={alcherimg} style={{width:'100vw',height:'100vh'}} alt="" />
         <div style={{position:'absolute', right:'1vw', top:'2vw'}}>
             <WordingsImage></WordingsImage>
         </div>
           {/* <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg> */}
         </div>
         <div class="carousel-item">
-        <img src={alcherimg} style={{width:'100vw',height:'30vw'}} alt="" />
+        <img src={alcherimg} style={{width:'100vw',height:'100vh'}} alt="" />
         <div style={{position:'absolute', right:'1vw', top:'2vw'}}>
             <WordingsImage></WordingsImage>
         </div>
@@ -41,14 +41,14 @@ const Header = () => {
           {/* <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg> */}
         </div>
         <div class="carousel-item">
-        <img src={alcherimg} style={{width:'100vw',height:'30vw',position:'relative'}} alt="" />
+        <img src={alcherimg} style={{width:'100vw',height:'100vh',position:'relative'}} alt="" />
         <div style={{position:'absolute', right:'1vw', top:'2vw'}}>
             <WordingsImage></WordingsImage>
         </div>
           {/* <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg> */}
         </div>
         <div class="carousel-item">
-        <img src={alcherimg} style={{width:'100vw',height:'30vw'}} alt="" />
+        <img src={alcherimg} style={{width:'100vw',height:'100vh'}} alt="" />
         <div style={{position:'absolute', right:'1vw', top:'2vw'}}>
             <WordingsImage></WordingsImage>
         </div>

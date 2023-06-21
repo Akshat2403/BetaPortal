@@ -5,11 +5,11 @@ import Navbar from './Homepage/Components/Navbar';
 import Contents from './Homepage/Components/Contents';
 function App() {
   return (
-    <div >
+    <div style={{overflow:"hidden"}}>
       
       <Navbar style={{position:'absolute',top:'1vw'}}></Navbar>
       <Header style={{position:'relative'}}></Header>
-      <Contents></Contents>
+      <Contents style={{marginBottom:'-2vw'}}></Contents>
       
     </div>
   );
