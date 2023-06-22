@@ -1,13 +1,13 @@
-import React from 'react'
-import TeamsIntro from './components/TeamsIntro.js'
-import TeamBoxes from './components/TeamBoxes.js'
+import React from "react";
+import TeamsIntro from "./components/TeamsIntro.js";
+import TeamBoxes from "./components/TeamBoxes.jsx";
 const Teams = () => {
   return (
     <>
-    <TeamsIntro/>
-    <TeamBoxes/>
+      <TeamsIntro />
+      <TeamBoxes />
     </>
-  )
-}
+  );
+};
 
-export default Teams
+export default Teams;

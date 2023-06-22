@@ -1,28 +1,29 @@
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-left: 0 !important;
 }
-.pr{
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr ;
-    margin: 3vw 10vw;
-    gap: 12vw;
+.pr {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
-.box{
-    width: 18vw;
-    height: 25vw;
-   background-image: url(../assets/box_img_team.svg);
-   background-repeat: no-repeat;
-   background-size: cover;
+.box {
+  width: 18vw;
+  height: 25vw;
+  background-image: url(../assets/box_img_team.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.crm{
-    display: flex;
-    justify-content: space-around;
-    margin: 3vw 5vw;
-}
-.mun{
-    display: flex;
-    justify-content: space-around;
-    margin: 3vw 24vw;
+.for2heading {
+  display: inline-block;
+  width: 19vw;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
 }
