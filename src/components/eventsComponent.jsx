@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./css/eventsComponent.css";
+import comp from "./css/eventsComponent.module.css";
 import Carousel from "./Carousel";
 import triangle from "./images/purple_triangle.svg";
 import scissors from "./images/events_component_scissors.svg";
@@ -16,16 +16,16 @@ const onClickUrl = (url) => {
 
 const EventsComponent = ({ images, title, link }) => {
   return (
-    <div className="one_section" onClick={onClickUrl({ link })}>
-      <div className="text-crsl">
-        <img src={scissors} className="scissors" />
-        <img src={triangle} className="purple-tri" />
-        <div className="text_sub">
-          <div className="heading-carousel">{title}</div>
-          <div className="desc">COLLECT YOUR TICKET FROM HERE</div>
+    <div className={comp.one_section} onClick={onClickUrl({ link })}>
+      <div className={comp.text_crsl}>
+        <img src={scissors} className={comp.scissors} />
+        <img src={triangle} className={comp.purple_tri} />
+        <div className={comp.text_sub}>
+          <div className={comp.heading_carousel}>{title}</div>
+          <div className={comp.desc}>COLLECT YOUR TICKET FROM HERE</div>
         </div>
 
-        <img src={triangle} className="purple-tri pt-left" />
+        <img src={triangle} className={`${comp.purple_tri} ${comp.pt_left}`} />
       </div>
       <Carousel images={images} />
     </div>
