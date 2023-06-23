@@ -8,7 +8,7 @@
   src: url(../fonts/DMSans-Regular.ttf);
 }
 
-.container-comp {
+.container_comp {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -25,12 +25,12 @@
   max-width: 100%;
 }
 
-.heading-comp {
+.heading_comp {
   font-family: HeadingPro;
   font-size: 6vw;
 }
 
-.text-comp {
+.text_comp {
   width: 80vw;
   height: fit-content;
   margin: auto;
@@ -45,7 +45,7 @@
   width: 70vw;
 }
 
-.down-arrow {
+.down_arrow {
   height: 7vh;
   position: absolute;
   bottom: 4vw;
@@ -53,17 +53,22 @@
   right: 0;
   margin: 0 auto;
 }
-.down-arrow:hover {
+.down_arrow:hover {
   cursor: pointer;
 }
 @media (orientation: portrait) {
-  .heading-comp {
-    font-size: 12vw;
-  }
-  .description {
+  .heading_comp {
     font-size: 6vw;
   }
-  .container-comp {
-    background-size: 220vh;
+  .description {
+    font-size: 2vh;
+  }
+  .container_comp {
+    background-size: 100%;
+    height: 40vh;
+    padding-top: 13vh;
+  }
+  .down_arrow {
+    height: 3vh;
   }
 }

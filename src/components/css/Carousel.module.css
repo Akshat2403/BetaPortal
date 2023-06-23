@@ -9,7 +9,7 @@
   cursor: pointer;
 }
 
-.carousel-image {
+.carousel_image {
   position: absolute;
   top: 0;
   left: 0;
@@ -22,11 +22,11 @@
   transition: opacity 1s ease-in-out;
 }
 
-.carousel-image.active {
+.carousel_image.active {
   opacity: 1;
 }
 
-.carousel-image-half {
+.carousel_image_half {
   position: absolute;
   top: 0;
   width: 50%;
@@ -36,11 +36,11 @@
   transition: transform 1s cubic-bezier(0.58, 1.56, 0.39, 0.84);
 }
 
-.carousel-image.active .carousel-image-half.left {
+.carousel_image.active .carousel_image_half.left {
   transform: translateX(100.1%);
 }
 
-.carousel-image.active .carousel-image-half.right {
+.carousel_image.active .carousel_image_half.right {
   transform: translateX(-100.1%);
 }
 

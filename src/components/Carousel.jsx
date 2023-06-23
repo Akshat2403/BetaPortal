@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./css/Carousel.css";
+import carousel from "./css/Carousel.module.css";
 
 const Carousel = ({ images, duration = 2000, hoverDuration = 1000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,22 +28,24 @@ const Carousel = ({ images, duration = 2000, hoverDuration = 1000 }) => {
 
   return (
     <div
-      className="carousel"
+      className={carousel.carousel}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
       {images.map((image, index) => (
         <div
           key={index}
-          className={`carousel-image ${index === currentIndex ? "active" : ""}`}
+          className={`${carousel.carousel_image} ${
+            index === currentIndex ? carousel.active : ""
+          }`}
           //   style={{ backgroundImage: `url(${image})` }}
         >
           <div
-            className="carousel-image-half left"
+            className={`${carousel.carousel_image_half} ${carousel.left}`}
             style={{ backgroundImage: `url(${image})` }}
           />
           <div
-            className="carousel-image-half right"
+            className={`${carousel.carousel_image_half} ${carousel.right}`}
             style={{ backgroundImage: `url(${image})` }}
           />
         </div>
