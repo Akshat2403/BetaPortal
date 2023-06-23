@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styles from "./teamsOneBox.module.css";
+import styles from "./css/teamsOneBox.module.css";
 
 const TeamsOneBox = ({ link, name, designation, number, email }) => {
   return (

@@ -16,7 +16,7 @@ h1 {
 .box {
   width: 18vw;
   height: 25vw;
-  background-image: url(../assets/box_img_team.svg);
+  background-image: url(../images/box_img_team.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }

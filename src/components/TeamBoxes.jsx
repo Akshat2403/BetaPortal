@@ -1,5 +1,5 @@
 import React from "react";
-import teambox from "../components/teamboxcss.module.css";
+import teambox from "../components/css/teamboxcss.module.css";
 import TeamsOneBox from "./teamsOneBox";
 
 function getBoxes(num) {
