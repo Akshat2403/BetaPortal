@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+.mainnavclass
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 5vw;
+    background-image: url('../Images/bgd.png');
+}
+ .leftside
+{
+    display: flex;
+    padding-left: 7vw;
+    align-items: center;
+    
+}
+a{
+    font-size: 1vw;
+}
+.rightside
+{
+    display: flex;
+    padding-right: 5vw;
+ } 
+/*
+ 
+  */
+
+/* .rightside
+{
+    display: flex;
+    
+} */
+ .individual
+ {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    /* padding-top: 5vw; */
+    font-family: 'DM Sans', sans-serif;
+ }
+ .individual1
+ {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-decoration: none;
+    text-decoration: underline;
+    font-family: 'DM Sans', sans-serif;
+    /* padding-top: 5vw; */
+ }

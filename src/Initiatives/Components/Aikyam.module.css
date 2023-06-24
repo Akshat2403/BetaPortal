@@ -1,0 +1,45 @@
+.heading
+{
+    font-size: 6vw;
+    color: #138542;
+    margin-left: 4vw;
+    /* margin-top: 10vw; */
+    position: relative;
+    top:7.3vw;
+    
+}
+.bodypart
+{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgba(66, 201, 142, 0.3); */
+    /* height: 20vw; */
+}
+.leftpart
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    margin-top: 8vw;
+    margin-left: 4vw;
+}
+.rightpart
+{
+    margin-right: 2.5vw;
+}
+.bgdclass
+{
+    z-index:-1;
+    position: relative;
+    
+}
+.colorbgd
+{
+    z-index: -1;
+    top: 4vw;
+    position: absolute;
+    background-color: rgba(66, 201, 142, 0.3);
+    height: 31vw;
+    width: 105vw;
+    right: -3vw;
+}

@@ -1,0 +1,157 @@
+.heading
+{
+    display:flex;
+    justify-content: center;
+    color: #138542;
+    font-size: 4vw;
+}
+.subheading
+{
+    display:flex;
+    /* justify-content: center; */
+    /* color: rgba(19, 133, 66, 1); */
+    font-size: 2vw;
+    /* justify-self: center; */
+    text-align: center;
+    flex-direction: column;
+}
+.thickline
+{
+    /* background-color: rgb(42, 144, 84); */
+    background: rgba(66, 201, 142, 0.3);
+
+    align-self: center;
+    height:1vw;
+    width: 80vw;
+    margin-bottom: 1vw;
+}
+.buttonsdiv
+{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-self: center;
+}
+.row1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+}
+.row2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    /* justify-items: center; */
+    /* justify-self: ; */
+}
+ .animate
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50vw;
+    overflow: hidden;
+}
+.animate >div
+{
+    margin-bottom: 50vw;
+    height: 50vw;
+    display: inline-block;
+}
+/* .animate div :first-child
+{
+    animation: companimes 10s infinite;
+} */
+
+.animate .animationElement {
+    animation: companimes 60s infinite;
+  }
+  .animate .animationElement.paused {
+    animation-play-state: paused;
+  }
+  
+  
+  @keyframes companimes {
+    0%{margin-top:0vw;
+    }
+    14.28%{margin-top:-55vw;}
+    28.56% {margin-top: -105vw;}
+    42.84% {margin-top: -155vw;}
+    57.12% {margin-top: -205vw;}
+    71.4% {margin-top: -255vw;}
+    85.68% {margin-top: 0vw;}
+    99.96%{margin-top:0vw;}
+  } 
+  .b1col
+  {
+    background-color:'#138542'
+  }
+  .b2col
+  {
+    background-color:'#138542'
+  }
+  .b3col
+  {
+    background-color:'#138542'
+  }
+  .b4col
+  {
+    background-color:'#138542'
+  }
+  .b5col
+  {
+    background-color:'#138542'
+  }
+  .b6col
+  {
+    background-color:'#138542'
+  }
+
+.bgdanimate1
+{
+    /* background-repeat: repeat; */
+    height: 7vw;
+    margin-top:-5vw;
+    overflow: hidden;
+    z-index: -1;
+    /* transform: rotate(180deg); */
+}
+
+.bgdanimate2
+{
+    background-image: url('../Images/diamondbgd.png');
+    /* transform: rotate(1); */
+    height: 100vw;
+    background-size: 150vw;
+    /* background-repeat: repeat; */
+    /* background-position: bottom; */
+    background-repeat: repeat-y;
+
+}
+.bgdanimate1 :hover
+{
+    scroll-behavior: smooth;
+    animation: bganime 1s 1;
+
+}
+
+@keyframes bganime {
+    0%{margin-top: 0vw;}
+    10%{margin-top: .1vw;}
+    20%{margin-top: .2vw;}
+    30%{margin-top: .3vw;}
+    40%{margin-top: .4vw;}
+    50%{margin-top: .5vw;}
+    60%{margin-top: .6vw;}
+    70%{margin-top: .7vw;}
+    80%{margin-top: .8vw;}
+    90%{margin-top: .9vw;}
+    100%{margin-top: 1vw;}
+  } 
+
+  
+    
