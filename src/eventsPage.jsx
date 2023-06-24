@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Carousel from "./Carousel";
-import EventsComponent from "./eventsComponent";
-import EventsIntro from "./eventsIntro";
-import Footer from "./footer";
+import Carousel from "./components/Carousel";
+import EventsComponent from "./components/eventsComponent";
+import EventsIntro from "./components/eventsIntro";
+import Footer from "./components/footer";
 
 const images1 = [
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
