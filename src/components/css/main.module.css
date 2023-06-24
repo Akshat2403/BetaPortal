@@ -4,17 +4,24 @@ body {
   overflow-x: hidden;
 }
 h1 {
+  padding-left: 4vw;
+  display: block;
   font-size: 4vw;
+  margin-top: 8vw !important;
   margin-left: 5vw;
-  margin-bottom: 0;
+  text-align: left !important;
 }
 
 .boxes {
   display: grid;
-  margin: 4vw 4vw;
+  padding: 4vw 4vw;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 1vw;
+  background-image: url(../images/comp_cross1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 .item {
   position: relative;
@@ -43,10 +50,14 @@ h1 {
 }
 .boxes2 {
   display: grid;
-  margin: 4vw 4vw;
+  padding: 4vw 4vw;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1vw;
+  background-image: url(../images/comp_cross2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 .box {
   position: relative;
