@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder !important;
+  margin-left: 0 !important;
+}
+.pr {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: relative;
+  padding: 0 2vw;
+}
+.box {
+  width: 18vw;
+  height: 25vw;
+  background-image: url(../images/box_img_team.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.for2heading {
+  display: inline-block;
+  width: 19vw;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.tr1 {
+  position: absolute;
+  width: 17vw;
+  right: 2vw;
+}
+
+.teams_ptt1 {
+  position: absolute;
+  width: 17vw;
+  left: 2vw;
+  top: -2vw;
+}
+
+.tr2 {
+  position: absolute;
+  width: 12vw;
+  left: 2vw;
+}
+
+.teams_ptt2 {
+  position: absolute;
+  width: 17vw;
+  right: 0;
+  top: -2vw;
+}
+
+.tr3 {
+  position: absolute;
+  width: 40vw;
+  right: 5vw;
+}
+
+.teams_ptt3 {
+  position: absolute;
+  width: 17vw;
+  left: 2.5vw;
+  top: 7vw;
+}
+
+.tr4 {
+  position: absolute;
+  width: 14vw;
+  left: 2vw;
+  top: -2vw;
+}
+
+.teams_ptt4 {
+  position: absolute;
+  width: 17vw;
+  right: 2vw;
+  top: -2vw;
+}
+
+.teams_ptt5 {
+  position: absolute;
+  width: 17vw;
+  top: 1.5vw;
+  left: 6vw;
+}
+
+.tr5 {
+  position: absolute;
+  width: 20vw;
+  right: 5vw;
+}
+
+.teams_ptt6 {
+  position: absolute;
+  width: 17vw;
+  top: 1.5vw;
+  left: 10vw;
+}
+
+.teams_ptt7 {
+  position: absolute;
+  width: 17vw;
+  top: 11vw;
+  right: 3vw;
+}

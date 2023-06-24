@@ -1,0 +1,74 @@
+@font-face {
+  font-family: HeadingPro;
+  src: url(../fonts/Heading-Pro-Bold-trial.ttf);
+}
+
+@font-face {
+  font-family: DMSans;
+  src: url(../fonts/DMSans-Regular.ttf);
+}
+
+.container_comp {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f04e52;
+  background-image: url("../images/teams_hero_mask.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fcfcfc;
+  padding-top: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.heading_comp {
+  font-family: HeadingPro;
+  font-size: 6vw;
+}
+
+.text_comp {
+  width: 80vw;
+  height: fit-content;
+  margin: auto;
+  position: relative;
+  top: -10vh;
+}
+
+.description {
+  margin-top: 1.6vw;
+  font-family: DMSans;
+  font-size: 2vw;
+  width: 70vw;
+}
+
+.down_arrow {
+  height: 7vh;
+  position: absolute;
+  bottom: 4vw;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.down_arrow:hover {
+  cursor: pointer;
+}
+@media (orientation: portrait) {
+  .heading_comp {
+    font-size: 6vw;
+  }
+  .description {
+    font-size: 2vh;
+  }
+  .container_comp {
+    background-size: 100%;
+    height: 40vh;
+    padding-top: 13vh;
+  }
+  .down_arrow {
+    height: 3vh;
+  }
+}
