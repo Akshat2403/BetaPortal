@@ -18,9 +18,10 @@ import "./App.css";
 // };
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Competitions from "./Competitions";
-import Navbar from "./components/Navbar.js";
 import Teams from "./Teams.js";
 import EventsPage from "./eventsPage.jsx";
+import LandingPage from "./LandingPage";
+import InitiativesPage from "./InitiativesPage";
 function App() {
   return (
     <BrowserRouter>
@@ -28,6 +29,8 @@ function App() {
         <Route path="/competitions/" element={<Competitions />} />
         <Route path="/teams/" element={<Teams />} />
         <Route path="/events/" element={<EventsPage />} />
+        <Route path="" element={<LandingPage />} />
+        <Route path="/initiatives/" element={<InitiativesPage />} />
       </Routes>
     </BrowserRouter>
   );

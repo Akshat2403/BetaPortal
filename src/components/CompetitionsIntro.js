@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import introcss from "./css/competitionsIntro.module.css";
 import down_arrow from "./images/down_arrow.svg";
-import Navbar from "./Navbar.js";
 import { useRef } from "react";
 const CompetitionsIntro = () => {
   const ref = useRef(null);

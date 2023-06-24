@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <>
       <div className={maincss.main}>
-        <h1>Featured Components</h1>
+        <h1 className={maincss.hed}>Featured Components</h1>
         <div className={maincss.boxes}>
           <div
             className={`${maincss.item} ${maincss.item1}`}
@@ -49,7 +49,7 @@ const Main = () => {
             <div className={maincss.box_text}>asasd</div>
           </div>
         </div>
-        <h1>Modules</h1>
+        <h1 className={maincss.hed}>Modules</h1>
         <div className={maincss.boxes2}>
           <div
             className={`${maincss.box} ${maincss.item5}`}

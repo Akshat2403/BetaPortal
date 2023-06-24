@@ -29,36 +29,36 @@ const TeamBoxes = () => {
   return (
     <>
       <main>
-        <h1>Public Relations & Branding</h1>
+        <h1 className={teambox.hed}>Public Relations & Branding</h1>
         <div className={teambox.pr}>
           <img src={teams_r1} className={teambox.tr1} alt="" />
           <img src={teams_ptt} className={teambox.teams_ptt1} alt="" />
           {getBoxes(3)}
         </div>
-        <h1>Corporate Relations & Marketing</h1>
+        <h1 className={teambox.hed}>Corporate Relations & Marketing</h1>
         <div className={teambox.pr}>
           <img src={teams_r2} className={teambox.tr2} alt="" />
           <img src={teams_ptt} className={teambox.teams_ptt2} alt="" />
           {getBoxes(4)}
         </div>
-        <h1>Events</h1>
+        <h1 className={teambox.hed}>Events</h1>
         <div className={teambox.pr}>
           <img src={teams_r3} className={teambox.tr3} alt="" />
           <img src={teams_ptt} className={teambox.teams_ptt3} alt="" />
           {getBoxes(3)}
         </div>
-        <h1>Creatives</h1>
+        <h1 className={teambox.hed}>Creatives</h1>
         <div className={teambox.pr}>
           <img src={teams_r4} className={teambox.tr4} alt="" />
           <img src={teams_ptt} className={teambox.teams_ptt4} alt="" />
           {getBoxes(3)}
         </div>
-        <h1>IITG MUN</h1>
+        <h1 className={teambox.hed}>IITG MUN</h1>
         <div className={teambox.pr}>
           <img src={teams_ptt} className={teambox.teams_ptt5} alt="" />
           {getBoxes(2)}
         </div>
-        <h1 className={teambox.pr}>
+        <h1 className={teambox.hed}>
           <div className={teambox.for2heading}>Web Ops</div>
           <div className={teambox.for2heading}>App Ops</div>
         </h1>
@@ -66,7 +66,7 @@ const TeamBoxes = () => {
           <img src={teams_r5} className={teambox.tr5} alt="" />
           {getBoxes(2)}
         </div>
-        <h1 className={teambox.pr}>
+        <h1 className={teambox.hed}>
           <div className={teambox.for2heading}>Convener</div>
           <div className={teambox.for2heading}>Finance head</div>
         </h1>
