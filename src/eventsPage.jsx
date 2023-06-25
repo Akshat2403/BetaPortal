@@ -21,7 +21,7 @@ class EventsPage extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar ></Navbar>
+        <Navbar ind={1}></Navbar>
         <EventsIntro />
         <div>
           <EventsComponent images={images1} title={title1} link={link1} />

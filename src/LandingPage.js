@@ -4,13 +4,14 @@ import Contents from "./Homepage/Components/Contents";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 const LandingPage = () => {
-    return ( 
-    <div style={{overflow:"hidden"}}>
-        <Navbar></Navbar>
-      <Header style={{position:'relative'}}></Header>
-      <Contents style={{marginBottom:'-2vw'}}></Contents>
+  return (
+    <div style={{ overflow: "hidden" }}>
+      <Navbar ind={0}></Navbar>
+      <Header style={{ position: "relative" }}></Header>
+      <Contents style={{ marginBottom: "-2vw" }}></Contents>
       <Footer></Footer>
-    </div> );
-}
- 
+    </div>
+  );
+};
+
 export default LandingPage;

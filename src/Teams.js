@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar.js";
 const Teams = () => {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar ind={3}></Navbar>
       <TeamsIntro />
       <TeamBoxes />
       <Footer />
