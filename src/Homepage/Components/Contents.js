@@ -54,11 +54,11 @@ const Contents = () => {
                     </div>
                 </div>
                 <div style={{display:"flex",flexDirection:"column"}}>
-                    <div style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopLeftRadius:'5vw',borderBottomRightRadius:'5vw',overflow:'hidden'}} >
+                    <div style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopLeftRadius:'5vw',borderBottomRightRadius:'5vw',overflow:'hidden',backgroundColor:'grey'}} >
 
                 <img src={swan7}  alt="" />
                     </div>
-                    <div style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopRightRadius:'5vw',borderBottomLeftRadius:'5vw',overflow:'hidden'}} >
+                    <div style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopRightRadius:'5vw',borderBottomLeftRadius:'5vw',overflow:'hidden',backgroundColor:'grey'}} >
 
                 <img src={swan1}  alt="" />
                 

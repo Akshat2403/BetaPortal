@@ -33,7 +33,7 @@ const Header = () => {
                     </p>
                 </div>
                 {/* <div style={{overflow:'hidden',height:'20vw',zIndex:'-1',}}> */}
-                <img className={styles.imgdes} style={{height:'20vw',marginBottom:'-1vw'}} src={dibgd} alt="" />
+                <img className={styles.imgdes} style={{height:'33vh',width:'100vw'}} src={dibgd} alt="" />
                 {/* </div> */}
                 <a onClick={handleclick} ><img src={downarraow} className={styles.downarrow} alt="" /></a>
                 </div>

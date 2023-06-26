@@ -27,12 +27,13 @@
 .bgd
 {
     /* background-image: url("../Images/alcher_image.png"); */
-    background: url("../Images/alcher_image.png");;
+    background: url("../Images/alcher_image.png");
     width:100vw;
     height:100vh;
     /* z-index: -1; */
-    background-size: 100vw;
-}
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+} 
 .positionwords
 {
     position: absolute;
