@@ -1,53 +1,90 @@
-.navbar
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height:5vw;
-    color: white;
-    z-index: 1;
-    position: absolute;
-    width: 100vw;
-    /* background-color: rgba(19, 133, 66, 1); */
-    /* background-color: rgba(255, 255, 255,0.4); */
-    background-image: url('../images/navbar_bg.svg');
-   
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5vw;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  padding: 0 5vw;
+  width: 100vw;
+  /* background-color: rgba(19, 133, 66, 1); */
+  /* background-color: rgba(255, 255, 255,0.4); */
+  background-image: url("../images/navbar_bg.svg");
 }
-.leftsidenav
-{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    /* color: white; */
-    justify-content: space-between;
-    align-items: center;
+.leftsidenav {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  /* color: white; */
+  justify-content: space-between;
+  align-items: center;
 }
-.rightsidenav
-{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-around; */
-    align-items: center;
-    font-size: 1.2vw;
-    margin-right: 2vw;
-    
+.rightsidenav {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  align-items: center;
+  font-size: 1.2vw;
+  margin-right: 2vw;
 }
-.individual
- {
-    padding-left: 1vw;
-    padding-right: 1vw;
-    /* padding-top: 5vw; */
-    font-family: 'DM Sans', sans-serif;
-    text-decoration-style: solid;
- }
- .alcherhead
- {
-    padding-left: 1vw;
-    font-size: 2vw;
- }
- .imgdeco
- {
-    width: 3vw;
-    height: 3.5vw;
-    margin-left: 2vw;
- }
+.individual {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  /* padding-top: 5vw; */
+  font-family: "DM Sans", sans-serif;
+  text-decoration-style: solid;
+}
+.alcherhead {
+  padding-left: 1vw;
+  font-size: 2vw;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.imgdeco {
+  width: 2.5vw;
+  margin-left: 0vw;
+}
+
+.inactive {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 0.2vw;
+}
+.hamburger {
+  width: 8vw;
+  z-index: 99;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .alcherhead {
+    display: none;
+  }
+  .individual {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .left {
+    display: none;
+  }
+  .navbar {
+    height: 10vw;
+  }
+  .imgdeco {
+    width: 6vw;
+  }
+}
