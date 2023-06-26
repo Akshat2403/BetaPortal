@@ -111,46 +111,36 @@
     background-color:'#138542'
   }
 
-.bgdanimate1
-{
-    /* background-repeat: repeat; */
-    height: 7vw;
-    margin-top:-5vw;
-    overflow: hidden;
-    z-index: -1;
-    /* transform: rotate(180deg); */
-}
-
 .bgdanimate2
 {
-    background-image: url('../Images/diamondbgd.png');
-    /* transform: rotate(1); */
-    height: 100vw;
-    background-size: 150vw;
-    /* background-repeat: repeat; */
-    /* background-position: bottom; */
-    background-repeat: repeat-y;
+    background: url('../Images/diamondbgd.png') repeat-y 0 0;
+    background-size: 130vw;
+    height: 10vw;
+}
+
+.bgdanimate1
+{
+
+  position: absolute;
+  height: 10vw;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 20%,
+  rgba(255,255,255,1));
 
 }
-.bgdanimate1 :hover
+.bgdanimate1:hover ~ .bgdanimate2
 {
     scroll-behavior: smooth;
-    animation: bganime 1s 1;
+  animation: bganime 300s infinite ;
+    -webkit-animation-timing-function: ease-in;
+  -moz-animation-timing-function: ease-in;
+  -o-animation-timing-function: ease-in;
+  animation-timing-function: linear;
 
 }
-
-@keyframes bganime {
-    0%{margin-top: 0vw;}
-    10%{margin-top: .1vw;}
-    20%{margin-top: .2vw;}
-    30%{margin-top: .3vw;}
-    40%{margin-top: .4vw;}
-    50%{margin-top: .5vw;}
-    60%{margin-top: .6vw;}
-    70%{margin-top: .7vw;}
-    80%{margin-top: .8vw;}
-    90%{margin-top: .9vw;}
-    100%{margin-top: 1vw;}
+  @keyframes bganime {
+    100%{background-position: 0 20000px;}
+    
   } 
 
   
