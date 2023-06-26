@@ -1,0 +1,49 @@
+.Menu {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+  top: 10vw;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.individual {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  /* padding-top: 5vw; */
+  font-size: 5vw;
+  font-family: "DM Sans", sans-serif;
+  text-decoration-style: solid;
+  margin-top: 10vw;
+}
+
+.inactive {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 0.2vw;
+}
+
+.head_home {
+  background-color: #1c1b1a;
+}
+.head_initiatives {
+  background-color: #2b9155;
+}
+
+.head_events {
+  background-color: #663aa0;
+}
+.head_teams {
+  background-color: #f26063;
+}
+.head_competitions {
+  background-color: #f3793b;
+}
