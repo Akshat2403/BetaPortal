@@ -1,0 +1,11 @@
+@font-face {
+    font-family: HeadingPro;
+    src: url(../../components/fonts/Heading-Pro-Bold-trial.ttf);
+  }
+.alch
+{
+    color: white;
+    font-weight: 700;
+    font-size: 7vw;
+    font-family: HeadingPro;
+}

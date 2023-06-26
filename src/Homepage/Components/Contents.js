@@ -39,15 +39,30 @@ const Contents = () => {
             <div className={styles.heading}>Featured Events</div>
             <div style={{display:'flex',flexWrap:"wrap",marginBottom:"-35vw",alignItems:"center",overflowX:"hidden"}}>
                 <div style={{display:"flex",flexDirection:"column"}}>
-                <img src={swan5} style={{width:'45vw',height:'20vw',marginBottom:'0.6vw'}} alt="" />
-                <img src={swan2} style={{width:'45vw',height:'20vw',marginTop:'0.6vw'}} alt="" />
+                    <div style={{width:'45vw',height:'20vw',marginBottom:'0.6vw',borderTopRightRadius:'5vw',borderBottomLeftRadius:'5vw',overflow:'hidden'}}>
+                        <img src={swan5}   alt="" />
+                    </div>
+                    <div style={{width:'45vw',height:'20vw',marginTop:'0.6vw',overflow:'hidden',borderBottomRightRadius:'5vw',borderTopLeftRadius:'5vw'}}>
+
+                <img src={swan2}  alt="" />
+                    </div>
                 </div>
                 <div style={{display:"flex",flexDirection:"column",marginLeft:"1vw",marginRight:"1vw"}}>
-                <img src={swan6} style={{width:'20vw',height:'40vw'}} alt="" />
+                    <div style={{width:'20vw',height:'40vw',overflow:'hidden',borderBottomLeftRadius:'5vw',borderTopRightRadius:'5vw',backgroundColor:'grey'}}>
+
+                <img src={swan6}  alt="" />
+                    </div>
                 </div>
                 <div style={{display:"flex",flexDirection:"column"}}>
-                <img src={swan7} style={{width:'20vw',height:'20vw',marginBottom:'0.6vw'}} alt="" />
-                <img src={swan1} style={{width:'20vw',height:'20vw',marginTop:'0.6vw'}} alt="" />
+                    <div style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopLeftRadius:'5vw',borderBottomRightRadius:'5vw',overflow:'hidden'}} >
+
+                <img src={swan7}  alt="" />
+                    </div>
+                    <div style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopRightRadius:'5vw',borderBottomLeftRadius:'5vw',overflow:'hidden'}} >
+
+                <img src={swan1}  alt="" />
+                
+                    </div>
                 
               
                 </div>

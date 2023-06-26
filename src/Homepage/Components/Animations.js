@@ -2,7 +2,7 @@ import React from "react";
 import styles from './Animations.module.css';
 // import styled,{keyframes} from "styled-components";
 const Animations = () => {
-    const words=["a","b","c","d"];
+    
     return (
         <div className={styles.animes}>
             <div className={styles.first}><div>27 EDITIONS</div></div>

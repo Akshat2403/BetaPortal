@@ -1,7 +1,18 @@
+
+@font-face {
+    font-family: HeadingPro;
+    src: url(../../components/fonts/Heading-Pro-Bold-trial.ttf);
+  }
+  
+  @font-face {
+    font-family: DMSans;
+    src: url(../../components/fonts/DMSans-Regular.ttf);
+  }
+  
 .headmain{
     background: #138542;
     width: 100vw;
-    height: 51.5vw;
+    height: 100vh;
     position: relative;
 }
 .words
@@ -63,37 +74,41 @@
     padding-top: 7vw;
     padding-left: 3vw;
     width: 80vw;
+    
+    margin-left: 5vw;
 }
 .headings
 {
-    font-size: 5vw;
+    font-size: 7vw;
     font-weight: 700;
+    font-family: HeadingPro;
+    margin-top: 1vw;
+    
 }
 .content
 {
     display: flex;
     flex-wrap: wrap;
+    font-family: DMSans;
+    display: flex;
+    flex-wrap: wrap;
 }
 .imgdes
 {
-    transform: rotate(180deg);
-    /* margin-top: 5vw; */
-    z-index: -1;
-    overflow: hidden;
-}
- .downarrow
-{
+    height: 31vh;
+    /* margin-bottom: -1vw; */
+    position: absolute;
+    top: 67vh;
+    z-index: 1;
     
-        position: absolute;
-        top: 40vw;
-        left: 50vw;
-        width: 4vw;
-        height: 4vw;
-        /* margin-left: -12px; */
-        border-left: 0.7vw solid #fff;
-        border-bottom: 0.7vw solid #fff;
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        box-sizing: border-box;
-      
+}
+.downarrow
+{
+    height: 8vh;
+    width: 10vw;
+    
+    left: 45vw;
+    position: absolute;
+    top: 90vh;
+     z-index: 2; 
  }  

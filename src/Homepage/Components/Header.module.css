@@ -24,3 +24,19 @@
     bottom: -50px;
 }
  */
+.bgd
+{
+    /* background-image: url("../Images/alcher_image.png"); */
+    background: url("../Images/alcher_image.png");;
+    width:100vw;
+    height:100vh;
+    /* z-index: -1; */
+    background-size: 100vw;
+}
+.positionwords
+{
+    position: absolute;
+    z-index: 1;
+    right: 37vw;
+    top:4vh;
+}

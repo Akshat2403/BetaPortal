@@ -2,6 +2,7 @@ import styles from './Header.module.css'
 import logo from '../../Homepage/Images/Frame.png'
 import dibgd from '../Images/diamondbgd.png';
 import { useRef } from 'react'
+import downarraow from '../../components/images/down_arrow.svg'
 const Header = () => {
     const ref=useRef(null);
     const handleclick=()=>{
@@ -31,10 +32,10 @@ const Header = () => {
                     Alcheringa hosts several campaigns under Initiatives for cultural development and the betterment of society. These campaigns are conducted round the year to serve the mankind.
                     </p>
                 </div>
-                <div style={{overflow:'hidden',height:'20vw',zIndex:'-1',marginTop:'2vw'}}>
-                <img className={styles.imgdes} style={{height:'20vw',marginBottom:'0vw'}} src={dibgd} alt="" />
-                </div>
-                <a onClick={handleclick} ><span className={styles.downarrow}></span></a>
+                {/* <div style={{overflow:'hidden',height:'20vw',zIndex:'-1',}}> */}
+                <img className={styles.imgdes} style={{height:'20vw',marginBottom:'-1vw'}} src={dibgd} alt="" />
+                {/* </div> */}
+                <a onClick={handleclick} ><img src={downarraow} className={styles.downarrow} alt="" /></a>
                 </div>
                 <div ref={ref} style={{height:'0vw',width:'0vw'}}></div>
       {/* <Middlepart ref={middlePartRef} /> */}

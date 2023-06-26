@@ -2,8 +2,10 @@ import styles from './Middlepart.module.css'
 import Button from './Button';
 import Aikyam from './Aikyam';
 import React, { useState, useEffect,forwardRef } from 'react';
-import diamondbg from '../Images/diamondbgd.png'
-
+import diamondbg from '../Images/MG.png'
+import blurbg from '../Images/blurbgd.svg'
+import Marquee from 'react-fast-marquee';
+import animebgd from '../Images/MG.png'
 const vwToPx = (vw) => {
     const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
     return (vw * viewportWidth) / 100;
@@ -11,8 +13,15 @@ const vwToPx = (vw) => {
 
 const Middlepart = ({setScrollRef}) => {
     
+  const [isHovered1, setIsHovered1] = useState(false);
 
-    
+  const handleMouseEnter = () => {
+    setIsHovered1(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered1(false);
+  };
 
     const [isHovered, setIsHovered] = useState(false);
   
@@ -105,11 +114,28 @@ useEffect(() => {
   
 }, [timer]);
     return ( 
-        <div style={{marginTop:'5vw'}}>
-            <div className={styles.bgdanimate1}>
-            {/* <img src={diamondbg} style={{zIndex:'-1',width:'100vw',height:'100vw'}} alt="" /> */}
-            <div className={styles.bgdanimate2}></div>
-            </div>
+        <div >
+            <div className={styles.whole}></div>
+
+            {/* <div
+      className={styles.out}
+    >
+      <Marquee 
+        style={{height:'7vh',width:'100vw'}}
+        speed={80} // Adjust the speed as per your preference
+        direction={isHovered1 ? 'up' : 'down'}
+        gradientColor={[0, 0, 0]} // Set the gradient color for a fade effect if desired
+      >
+        <img src={animebgd} alt="Your Image" />
+        <img src={animebgd} alt="Your Image" />
+        <img src={animebgd} alt="Your Image" />
+       
+      </Marquee>
+    </div> */}
+
+            {/* <div className={styles.bgdblurred}>
+              <img style={{width:'100vw'}} src={blurbg} alt="" />
+            </div> */}
             <div className={styles.heading}>
                 <p>Kartavya</p>
             </div>

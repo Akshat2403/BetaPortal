@@ -1,5 +1,10 @@
+@font-face {
+    font-family: DMSans;
+    src: url(../../components/fonts/DMSans-Regular.ttf);
+  }
 .heading
 {
+    font-family: Montserrat;
     font-weight: 700;
     margin-top: 1vw;
     margin-bottom: 2vw;
@@ -72,6 +77,7 @@
     padding-left: -1vw;
     flex-wrap: 90vw;
     flex-wrap: wrap;
+    font-family: DMSans;
     /* position: relative; */
     /* background: radial-gradient(circle at 90%,#9151A099, #FFFFFF 50%, #FFFFFF 75%, #FFFFFF 75%); */
     /* background: radial-gradient(circle at 90%,rgba(145, 81, 160, 0.8), rgba(145, 81, 160, 0.4) 50%, #FFFFFF 75%, #FFFFFF 75%); */
