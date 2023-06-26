@@ -2,8 +2,12 @@ import styles from "./css/nav.module.css";
 import logo from "./images/Frame.png";
 import React, { Component } from "react";
 import { Text, View, StyleSheet } from "react-native-web";
+import Menu from "./Menu";
+import hamburger from "./images/hamburger.svg";
+import { useState } from "react";
 
 const Navbar = (ind) => {
+  const [count, setCount] = useState(0);
   return (
     <div>
       <div className={styles.navbar}>
@@ -11,11 +15,12 @@ const Navbar = (ind) => {
           <img className={styles.imgdeco} src={logo} alt="" />
           <a
             className={styles.alcherhead}
-            style={{
-              fontFamily: "Montserrat",
-              color: "white",
-              textDecoration: "none",
-            }}
+            // style={{
+            //   fontFamily: "Montserrat",
+            //   color: "white",
+            //   textDecoration: "none",
+            //   fontWeight: "bolder",
+            // }}
             href="#"
           >
             ALCHERINGA
@@ -67,8 +72,12 @@ const Navbar = (ind) => {
           >
             Competitions
           </a>
+          <div onClick={() => setCount(count + 1)}>
+            <img src={hamburger} className={styles.hamburger}></img>
+          </div>
         </div>
       </div>
+      {count % 2 == 1 && <Menu ind={ind.ind}></Menu>}
     </div>
   );
 };
