@@ -31,7 +31,7 @@
     color: white;
     border-radius:10vw;
     width:25vw;
-    padding: 1.5vw 1.5vw -2vw 1.5vw;
+    padding: 1.5vw;
     text-decoration: none;
     display: flex;
     text-align: center;
@@ -61,7 +61,7 @@
     color: white;
     border-radius:10vw;
     width:22vw;
-    padding: 1.5vw 1.5vw -2vw 1.5vw;
+    padding: 1.5vw;
     text-decoration: none;
     display: flex;
     text-align: center;
