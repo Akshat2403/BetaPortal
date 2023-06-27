@@ -1,17 +1,16 @@
-import styles from './Header.module.css'
-import logo from '../../Homepage/Images/Frame.png'
-import dibgd from '../Images/diamondbgd.png';
-import { useRef } from 'react'
-import downarraow from '../../components/images/down_arrow.svg'
+import styles from "./Header.module.css";
+import logo from "../../Homepage/Images/Frame.png";
+import dibgd from "../Images/MG.png";
+import { useRef } from "react";
+import downarraow from "../../components/images/down_arrow.svg";
 const Header = () => {
-    const ref=useRef(null);
-    const handleclick=()=>{
-        ref.current?.scrollIntoView({ behavior: "smooth" });
-    };
-    return ( 
-        <div>
-            
-            {/* <div className={styles.navbar}>
+  const ref = useRef(null);
+  const handleclick = () => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  return (
+    <div>
+      {/* <div className={styles.navbar}>
                 <div className={styles.leftsidenav}>
                     <img className={styles.imgdeco} src={logo} alt="" />
                    <a className={styles.alcherhead} style={{fontFamily: 'Montserrat', color:'white',textDecoration: 'none'}} href="#">ALCHERINGA</a>
@@ -25,23 +24,31 @@ const Header = () => {
                     <a className={styles.individual} style={{color:'white',textDecoration: 'none'}} href="/competitions/">Competitions</a>
                 </div>
             </div> */}
-            <div className={styles.headmain}>
-                <div className={styles.words}>
-                    <p className={styles.headings}>THE INITIATIVES</p>
-                    <p className={styles.content}>
-                    Alcheringa hosts several campaigns under Initiatives for cultural development and the betterment of society. These campaigns are conducted round the year to serve the mankind.
-                    </p>
-                </div>
-                {/* <div style={{overflow:'hidden',height:'20vw',zIndex:'-1',}}> */}
-                <img className={styles.imgdes} style={{height:'33vh',width:'100vw'}} src={dibgd} alt="" />
-                {/* </div> */}
-                <a onClick={handleclick} ><img src={downarraow} className={styles.downarrow} alt="" /></a>
-                </div>
-                <div ref={ref} style={{height:'0vw',width:'0vw'}}></div>
+      <div className={styles.headmain}>
+        <div className={styles.words}>
+          <p className={styles.headings}>THE INITIATIVES</p>
+          <p className={styles.content}>
+            Alcheringa hosts several campaigns under Initiatives for cultural
+            development and the betterment of society. These campaigns are
+            conducted round the year to serve the mankind.
+          </p>
+        </div>
+        {/* <div style={{overflow:'hidden',height:'20vw',zIndex:'-1',}}> */}
+        <img
+          className={styles.imgdes}
+          style={{ width: "100vw" }}
+          src={dibgd}
+          alt=""
+        />
+        {/* </div> */}
+        <a onClick={handleclick}>
+          <img src={downarraow} className={styles.downarrow} alt="" />
+        </a>
+      </div>
+      <div ref={ref} style={{ height: "0vw", width: "0vw" }}></div>
       {/* <Middlepart ref={middlePartRef} /> */}
     </div>
-            
-     );
-}
- 
+  );
+};
+
 export default Header;

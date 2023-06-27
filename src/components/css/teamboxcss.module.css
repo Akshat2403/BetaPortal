@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
-h1 {
+h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,11 +23,12 @@ h1 {
   background-size: cover;
 }
 .for2heading {
-  display: inline-block;
-  width: 19vw;
+  display: flex;
+  width: 100vw;
   overflow: visible;
   white-space: nowrap;
   text-align: center;
+  justify-content: space-around;
 }
 
 .tr1 {
