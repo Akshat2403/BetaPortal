@@ -157,8 +157,8 @@ const Middlepart = ({ setScrollRef }) => {
             className={`${styles.animationElement} ${
               isHovered ? styles.paused : ""
             }`}
-            onMouseEnter={() => handleHover(true)}
-            onMouseLeave={() => handleHover(false)}
+            onMouseDown={() => handleHover(true)}
+            onMouseUp={() => handleHover(false)}
           >
             <Aikyam>AIKYAM</Aikyam>
           </div>
@@ -169,8 +169,8 @@ const Middlepart = ({ setScrollRef }) => {
             className={`${styles.animationElement} ${
               isHovered ? styles.paused : ""
             }`}
-            onMouseEnter={() => handleHover(true)}
-            onMouseLeave={() => handleHover(false)}
+            onMouseDown={() => handleHover(true)}
+            onMouseUp={() => handleHover(false)}
           >
             <Aikyam>MANSHAKTI</Aikyam>
           </div>
@@ -181,8 +181,8 @@ const Middlepart = ({ setScrollRef }) => {
             className={`${styles.animationElement} ${
               isHovered ? styles.paused : ""
             }`}
-            onMouseEnter={() => handleHover(true)}
-            onMouseLeave={() => handleHover(false)}
+            onMouseDown={() => handleHover(true)}
+            onMouseUp={() => handleHover(false)}
           >
             <Aikyam>SAFHER</Aikyam>
           </div>
@@ -193,8 +193,8 @@ const Middlepart = ({ setScrollRef }) => {
             className={`${styles.animationElement} ${
               isHovered ? styles.paused : ""
             }`}
-            onMouseEnter={() => handleHover(true)}
-            onMouseLeave={() => handleHover(false)}
+            onMouseDown={() => handleHover(true)}
+            onMouseUp={() => handleHover(false)}
           >
             <Aikyam>PRITHVI</Aikyam>
           </div>
@@ -205,8 +205,8 @@ const Middlepart = ({ setScrollRef }) => {
             className={`${styles.animationElement} ${
               isHovered ? styles.paused : ""
             }`}
-            onMouseEnter={() => handleHover(true)}
-            onMouseLeave={() => handleHover(false)}
+            onMouseDown={() => handleHover(true)}
+            onMouseUp={() => handleHover(false)}
           >
             <Aikyam>NORTH-EAST UNVIELD</Aikyam>
           </div>
@@ -217,8 +217,8 @@ const Middlepart = ({ setScrollRef }) => {
             className={`${styles.animationElement} ${
               isHovered ? styles.paused : ""
             }`}
-            onMouseEnter={() => handleHover(true)}
-            onMouseLeave={() => handleHover(false)}
+            onMouseDown={() => handleHover(true)}
+            onMouseUp={() => handleHover(false)}
           >
             <Aikyam>UDAAN</Aikyam>
           </div>

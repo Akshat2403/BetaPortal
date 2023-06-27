@@ -97,7 +97,7 @@
     justify-self: end;
     position: relative;
     left:73vw;
-    top:-49vw;
+    top:-50vw;
     background: radial-gradient(circle at 90%,rgba(145, 81, 160, 0.6), rgba(145, 81, 160, 0.4) 50%, #FFFFFF 75%, #FFFFFF 75%);
     z-index: -1;
 
@@ -111,7 +111,7 @@
     justify-self: start;
     position: relative;
     left:-7vw;
-    top:-96vw;
+    top:-99vw;
     background: url('../Images/bgd.jpg');
     background-size: 10vw;
     /* mask-repeat: no-repeat; */
@@ -167,4 +167,12 @@
     background-image: url('../Images/Rectanglebgd.png');
     background-size: 12vw;
     background-repeat: no-repeat;
+}
+
+@media (orientation: portrait) {
+    .body
+    {
+
+        font-size: 2vh;
+    }
 }

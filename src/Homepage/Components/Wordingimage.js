@@ -2,22 +2,22 @@ import Animations from "./Animations";
 import styles from './Wordingimage.module.css'
 const WordingsImage = () => {
     return (
-        <div style={{right:'23vw',top:'8vh',position:'relative'}}>
-            <div style={{display:'flex',flexDirection:'column',justifyContent:'flex-start',marginLeft:'8vw',marginTop:'9vh'}}>
-            <div style={{color:'white',fontFamily: 'Montserrat',fontWeight:"700",fontSize:"2vw",marginBottom:'-3vh'}}>
+        <div className={styles.maindiv} >
+            <div className={styles.submain}>
+            <div className={styles.givefont} style={{color:'white',fontFamily: 'Montserrat',fontWeight:"700"}}>
                 IIT GUWAHATI'S
             </div>
             <div className={styles.alch}>
                 ALCHERINGA
             </div>
-            <div style={{color:'white',fontSize:"1.5vw",fontFamily:'Montserrat'}}>
+            <div className={styles.givefont1} style={{color:'white',fontFamily:'Montserrat'}}>
                 The largest Cultural Fest of
             </div>
-            <div style={{color:'white',fontSize:"1.5vw",fontFamily:'Montserrat'}}>
+            <div className={styles.givefont1} style={{color:'white',fontFamily:'Montserrat'}}>
                 North-East India
             </div>
             </div>
-            <div style={{right:'-56vw',top:'24vh',position:'relative',fontSize:"4vw"}}>
+            <div className={styles.animesdiv} >
             <Animations></Animations>
             </div>
         </div>

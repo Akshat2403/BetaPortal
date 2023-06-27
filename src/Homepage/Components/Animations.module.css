@@ -33,6 +33,20 @@
     99% {margin-top: -2vw;}
     100%{margin-top:0;}
   }
-  
+  @media (orientation: portrait) {
+    .animes
+    {
+      display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 10vw;
+    color: white;
+    font-weight: 700;
+    font-size: 7vw;
+    font-family: Vangaurdcf;
+    width:50vw;
+    }
+  }
 
  

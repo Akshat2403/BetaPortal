@@ -186,7 +186,7 @@ const Header = () => {
       showThumbs={false}
       showStatus={false}
       interval={4000} // Adjust the interval (in milliseconds) as per your preference
-      
+      className={styles.carclass}
     >
       <div className={styles.bgd}>
         {/* <img style={{zIndex:'-1'}} src={alcherimg} alt="Image 1" /> */}

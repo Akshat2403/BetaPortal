@@ -41,3 +41,28 @@
     right: 37vw;
     top:4vh;
 }
+
+@media (orientation: portrait) {
+    .heading_comp {
+      font-size: 6vw;
+      
+    }
+    .positionwords {
+      font-size: 2vh;
+      position: absolute;
+      top:-7vh;
+      left: 25vw;
+    }
+    .carclass {
+      background-size: 100%;
+      height: 50vh;
+      /* padding-top: 17vh; */
+    }
+    .bgd
+    {
+        background-size: 100vw 50vh;
+      height: 50vh;
+      /* padding-top: 17vh; */
+    }
+    
+  }
