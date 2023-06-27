@@ -22,7 +22,11 @@ import Teams from "./Teams.js";
 import EventsPage from "./eventsPage.jsx";
 import LandingPage from "./LandingPage";
 import InitiativesPage from "./InitiativesPage";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    document.title = "Alcheringa";
+  }, []);
   return (
     <BrowserRouter>
       <Routes>

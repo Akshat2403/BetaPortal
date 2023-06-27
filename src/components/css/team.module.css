@@ -30,6 +30,9 @@
   font-size: 6vw;
 }
 
+h2 {
+  text-align: center;
+}
 .text_comp {
   width: 100vw;
   padding-left: 6vw;
