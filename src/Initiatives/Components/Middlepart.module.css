@@ -1,25 +1,13 @@
-@font-face {
-  font-family: HeadingPro;
-  src: url(../../components/fonts/Heading-Pro-Bold-trial.ttf);
-}
-
-@font-face {
-  font-family: DMSans;
-  src: url(../../components/fonts/DMSans-Regular.ttf);
-}
 .heading
 {
     display:flex;
     justify-content: center;
     color: #138542;
-    font-size: 7vw;
-    font-family: HeadingPro;
-    /* box-shadow: 0vw -5px 10px rgba(0, 0, 0, 0.4); */
+    font-size: 4vw;
 }
 .subheading
 {
     display:flex;
-    font-family: DMSans;
     /* justify-content: center; */
     /* color: rgba(19, 133, 66, 1); */
     font-size: 2vw;
@@ -80,9 +68,7 @@
 } */
 
 .animate .animationElement {
-    animation: companimes 70s infinite;
-    scroll-behavior: smooth;
-    transition: linear;
+    animation: companimes 60s infinite;
   }
   .animate .animationElement.paused {
     animation-play-state: paused;
@@ -92,13 +78,13 @@
   @keyframes companimes {
     0%{margin-top:0vw;
     }
-    17%{margin-top:-55vw;}
-    33% {margin-top: -105vw;}
-    50% {margin-top: -155vw;}
-    67% {margin-top: -205vw;}
-    83% {margin-top: -255vw;}
-    100% {margin-top: 0vw;}
-   
+    14.28%{margin-top:-55vw;}
+    28.56% {margin-top: -105vw;}
+    42.84% {margin-top: -155vw;}
+    57.12% {margin-top: -205vw;}
+    71.4% {margin-top: -255vw;}
+    85.68% {margin-top: 0vw;}
+    99.96%{margin-top:0vw;}
   } 
   .b1col
   {
@@ -125,25 +111,6 @@
     background-color:'#138542'
   }
 
-
-  .out 
-  {
-    height: 7vw;
-    margin-top:0vw;
-   opacity: 0.5;
-  }
-
-
-.marquee
-{
-    background-image: url('../Images/MG.png');
-    height: 10vw;
-    background-size: 130vw;
-    /* scroll-behavior: smooth; */
-   /* animation: scroll 2s linear infinite; */
-
-}
-.marquee .mouseenter
 .bgdanimate2
 {
     background: url('../Images/diamondbgd.png') repeat-y 0 0;
@@ -163,93 +130,18 @@
 }
 .bgdanimate1:hover ~ .bgdanimate2
 {
-    background-image: url('../Images/MG.png');
-    height: 10vw;
-    background-size: 130vw;
     scroll-behavior: smooth;
-   animation: scroll 2s linear infinite;
-
-}
-.marquee.mouseleave
-{
-    background-image: url('../Images/MG.png');
-    height: 10vw;
-    background-size: 130vw;
-    scroll-behavior: smooth;
-   animation: revscroll 2s linear infinite;
-
-}
-
-  /* animation: bganime 300s infinite ;
+  animation: bganime 300s infinite ;
     -webkit-animation-timing-function: ease-in;
   -moz-animation-timing-function: ease-in;
   -o-animation-timing-function: ease-in;
-  animation-timing-function: linear; */
+  animation-timing-function: linear;
 
-
+}
   @keyframes bganime {
     100%{background-position: 0 20000px;}
     
   } 
 
-
-
-@-webkit-keyframes bg-scrolling-reverse {
-  100% {
-    background-position:0vw 50px;
-  }
-}
-@-moz-keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 0vw 50px;
-  }
-}
-@-o-keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 0vw 50px;
-  }
-}
-@keyframes bg-scrolling-reverse {
-  100% {
-    background-position:0vw 50px;
-  }
-}
-@-webkit-keyframes bg-scrolling {
-  0% {
-    background-position:0vw 50px;
-  }
-}
-@-moz-keyframes bg-scrolling {
-  0% {
-    background-position: 0vw 50px;
-  }
-}
-@-o-keyframes bg-scrolling {
-  0% {
-    background-position: 0vw 50px;
-  }
-}
-@keyframes bg-scrolling {
-  0% {
-    background-position: 0vw 50px;
-  }
-}
-
-.whole {
-  height:400px;
-  overflow: hidden;
-/*   margin-top: -13.5rem; */
-background: url('../Images/MG.png');
-  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Safari 4+ */
-  -moz-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Fx 5+ */
-  -o-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Opera 12+ */
-  animation: bg-scrolling-reverse 0.92s infinite;
-  /* IE 10+ */
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-  -o-animation-timing-function: linear;
-  animation-timing-function: linear;
-}
+  
+    

@@ -95,10 +95,10 @@
 }
 .imgdes
 {
-    height: 31vh;
+    /* height: 31vh; */
     /* margin-bottom: -1vw; */
     position: absolute;
-    top: 67vh;
+    top: 64vh;
     z-index: 1;
     
 }
