@@ -33,6 +33,7 @@
     font-size: 2vw;
     margin-top: 8vw;
     margin-left: 4vw;
+    font-family: DMSans;
 }
 .rightpart
 {
@@ -40,7 +41,7 @@
 }
 .bgdclass
 {
-    z-index:-1;
+    /* z-index:-1; */
     position: relative;
     
 }
@@ -54,3 +55,30 @@
     width: 105vw;
     right: -3vw;
 }
+
+.dotsgreen
+{
+    background-image: url(../Images/Masks.png);
+    z-index: -1;
+    position: absolute;
+    background-size: 10vw 10vw;
+    left: -11vw;
+    top: -3vw;
+    height: 20vw;
+    width:16vw ;
+    background-repeat: no-repeat;
+}
+
+.rectgreen
+{
+    background-image: url(../Images/Rectangl.png);
+    z-index: -1;
+    position: absolute;
+    background-size: 10vw 10vw;
+    top: 28vw;
+    left: -50.5vw;
+    height: 20vw;
+    width:16vw ;
+    background-repeat: no-repeat;
+}
+

@@ -21,18 +21,18 @@ const Contents = () => {
             <div style={{display:'flex'}}>
             <div style={{display:'flex',flexDirection:'column',marginBottom:"2vw"}}>
                 <div style={{paddingBottom:'1vw'}}>
-            <a href="#" className={styles.button1}>Competitions</a>
+            <a  href="/competitions/" className={styles.button1}>Competitions</a>
             </div>
             <div>
-            <a href="#" className={styles.button2}>Meet the Team</a>
+            <a href="/teams/" className={styles.button2}>Meet the Team</a>
             </div>
             </div>
             <div style={{display:'flex',flexDirection:'column',marginBottom:"2vw",marginLeft:'3vw'}}>
                 <div style={{paddingBottom:'1vw'}}>
-            <a href="#" className={styles.button3}>Events</a>
+            <a href="/events/" className={styles.button3}>Events</a>
             </div>
             <div>
-            <a href="#" className={styles.button4}>Initiatives</a>
+            <a href="/initiatives/" className={styles.button4}>Initiatives</a>
             </div>
             </div>
             </div>

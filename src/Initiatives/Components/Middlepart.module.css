@@ -1,9 +1,17 @@
+@font-face {
+  font-family: HeadingPro;
+  src: url(../../components/fonts/Heading-Pro-Bold-trial.ttf);
+}
+
 .heading
 {
     display:flex;
     justify-content: center;
     color: #138542;
-    font-size: 4vw;
+    font-size: 5vw;
+    font-weight: 700;
+    font-family: HeadingPro;
+
 }
 .subheading
 {
@@ -31,6 +39,7 @@
     flex-direction: column;
     /* align-items: center; */
     align-self: center;
+    padding-bottom: 2vh;
 }
 .row1
 {
@@ -67,9 +76,9 @@
     animation: companimes 10s infinite;
 } */
 
-.animate .animationElement {
+/* .animate .animationElement {
     animation: companimes 60s infinite;
-  }
+  } */
   .animate .animationElement.paused {
     animation-play-state: paused;
   }
@@ -142,6 +151,12 @@
     100%{background-position: 0 20000px;}
     
   } 
-
-  
-    
+  @media (orientation: portrait) {
+  .heading {
+    font-size: 7vw;
+    font-family: HeadingPro;
+  }
+  .subheading {
+    font-size: 1.5vh;
+  }
+}

@@ -25,7 +25,7 @@ const Navbar = (ind) => {
             //   textDecoration: "none",
             //   fontWeight: "bolder",
             // }}
-            href="#"
+            href="/"
           >
             ALCHERINGA
           </a>

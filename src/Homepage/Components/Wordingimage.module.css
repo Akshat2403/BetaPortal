@@ -10,3 +10,72 @@
     font-family: HeadingPro;
     margin-top: 3vh;
 }
+.givefont
+{
+  font-size:2vw;
+  margin-bottom:-3vh;
+}
+.givefont1
+{
+  font-size:1.5vw;
+   display: flex;
+  /*   */
+}
+.maindiv
+{
+  right:23vw;
+  top:8vh;
+  position:relative;
+}
+.animesdiv
+{
+  position:relative;
+  right:-56vw;
+  top:24vh;
+  font-size:4vw;
+}
+.submain
+{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  margin-left:8vw;
+  margin-top:9vh;
+}
+@media (orientation: portrait) {
+  .maindiv
+  {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    /* justify-content: center; */
+  }
+  .animesdiv
+{
+  position: absolute;
+  right: -35vw;
+  top: 35vh;
+  /* margin-top: 2vw; */
+}
+.submain
+{
+  position: absolute;
+  right: -60vw;
+
+}
+  .alch
+  {
+    font-size: 10vw;
+  }
+  .givefont
+{
+  font-size:3vw;
+}
+.givefont1
+{
+  font-size:3vw;
+  width: 70vw;
+}
+
+}
