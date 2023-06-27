@@ -10,7 +10,11 @@ const Navbar = (ind) => {
   const [count, setCount] = useState(0);
   return (
     <div>
-      <div className={styles.navbar}>
+      <div
+        className={`${styles.navbar} ${
+          count % 2 == 1 ? styles.navFixed : styles.Navbar
+        }`}
+      >
         <div className={styles.leftsidenav}>
           <img className={styles.imgdeco} src={logo} alt="" />
           <a

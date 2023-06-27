@@ -31,7 +31,9 @@
 }
 
 .text_comp {
-  width: 80vw;
+  width: 100vw;
+  padding-left: 6vw;
+  padding-right: 14vw;
   height: fit-content;
   margin: auto;
   position: relative;
