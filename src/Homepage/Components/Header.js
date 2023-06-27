@@ -1,8 +1,8 @@
 import alcherimg from "../Images/alcher_image.png";
 import WordingsImage from "./Wordingimage";
 import styles from "./Header.module.css";
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Header = () => {
   return (
     // <div>
@@ -174,44 +174,43 @@ const Header = () => {
     //     </button>
     //   </div>
     // </div>
-   
-      <div>
-        <div className={styles.positionwords}>
-      <WordingsImage></WordingsImage>
+
+    <div>
+      <div className={styles.positionwords}>
+        <WordingsImage></WordingsImage>
       </div>
-      <div style={{zIndex:'-1'}}>
-    <Carousel
-      autoPlay
-      infiniteLoop
-      showThumbs={false}
-      showStatus={false}
-      interval={4000} // Adjust the interval (in milliseconds) as per your preference
-      
-    >
-      <div className={styles.bgd}>
-        {/* <img style={{zIndex:'-1'}} src={alcherimg} alt="Image 1" /> */}
-        {/* <WordingsImage></WordingsImage> */}
+      <div style={{ zIndex: "-1" }}>
+        <Carousel
+          autoPlay
+          infiniteLoop
+          showArrows={false}
+          showThumbs={false}
+          showStatus={false}
+          interval={4000} // Adjust the interval (in milliseconds) as per your preference
+        >
+          <div className={styles.bgd}>
+            {/* <img style={{zIndex:'-1'}} src={alcherimg} alt="Image 1" /> */}
+            {/* <WordingsImage></WordingsImage> */}
+          </div>
+          <div className={styles.bgd}>
+            {/* <img src={alcherimg} alt="Image 2" /> */}
+            {/* <WordingsImage></WordingsImage> */}
+          </div>
+          <div className={styles.bgd}>
+            {/* <img src={alcherimg} alt="Image 3" /> */}
+            {/* <WordingsImage></WordingsImage> */}
+          </div>
+          <div className={styles.bgd}>
+            {/* <img src={alcherimg} alt="Image 4" /> */}
+            {/* <WordingsImage></WordingsImage> */}
+          </div>
+          <div className={styles.bgd}>
+            {/* <img src={alcherimg} alt="Image 5" /> */}
+            {/* <WordingsImage></WordingsImage> */}
+          </div>
+        </Carousel>
       </div>
-      <div className={styles.bgd}>
-        {/* <img src={alcherimg} alt="Image 2" /> */}
-        {/* <WordingsImage></WordingsImage> */}
-      </div>
-      <div className={styles.bgd}>
-        {/* <img src={alcherimg} alt="Image 3" /> */}
-        {/* <WordingsImage></WordingsImage> */}
-      </div>
-      <div className={styles.bgd}>
-        {/* <img src={alcherimg} alt="Image 4" /> */}
-        {/* <WordingsImage></WordingsImage> */}
-      </div>
-      <div className={styles.bgd}>
-        {/* <img src={alcherimg} alt="Image 5" /> */}
-        {/* <WordingsImage></WordingsImage> */}
-      </div>
-    </Carousel>
     </div>
-    </div>
-   
   );
 };
 
