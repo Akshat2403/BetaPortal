@@ -2,22 +2,70 @@ import styles from "./Aikyam.module.css";
 import pic1 from "../../Homepage/Images/Rectangle5.png";
 import pic2 from "../../Homepage/Images/Rectangle5.png";
 import pic3 from "../../Homepage/Images/Rectangle5.png";
-const Aikyam = (props) => {
-  const { children } = props;
+import prithvi1 from "../Images/prithvi1.jpg";
+import prithvi2 from "../Images/prithvi2.jpg";
+import prithvi3 from "../Images/prithvi3.jpg";
+import aikyam1 from "../Images/aikyam1.jpg";
+import aikyam2 from "../Images/aikyam2.jpg";
+import aikyam3 from "../Images/aikyam3.jpg";
+import udaan1 from "../Images/udaan1.jpg";
+import udaan2 from "../Images/udaan2.jpg";
+import udaan3 from "../Images/udaan3.jpg";
+import NEU1 from "../Images/NEU1.png";
+import NEU2 from "../Images/NEU2.png";
+import NEU3 from "../Images/NEU3.png";
+
+const Aikyam = ({ name }) => {
+  console.log(name);
+  const content = {
+    Aikyam: [
+      "Alcheringa hosts several campaigns under Initiatives for cultural\
+        development and the betterment of society. These campaigns are\
+        conducted round the year to serve the mankind.",
+      [aikyam1, aikyam2, aikyam3],
+    ],
+    SAFHER: [
+      "Alcheringa hosts several campaigns under Initiatives for cultural\
+          development and the betterment of society. These campaigns are\
+          conducted round the year to serve the mankind.",
+      [prithvi1, prithvi2, prithvi3],
+    ],
+    MANSHAKTI: [
+      "Alcheringa hosts several campaigns under Initiatives for cultural\
+          development and the betterment of society. These campaigns are\
+          conducted round the year to serve the mankind.",
+      [prithvi1, prithvi2, prithvi3],
+    ],
+    UDAAN: [
+      "Alcheringa hosts several campaigns under Initiatives for cultural\
+          development and the betterment of society. These campaigns are\
+          conducted round the year to serve the mankind.",
+      [udaan1, udaan2, udaan3],
+    ],
+    Prithvi: [
+      "Alcheringa hosts several campaigns under Initiatives for cultural\
+            development and the betterment of society. These campaigns are\
+            conducted round the year to serve the mankind.",
+      [udaan1, udaan2, udaan3],
+    ],
+    "NORTH-EAST UNVIELD": [
+      "Alcheringa hosts several campaigns under Initiatives for cultural\
+          development and the betterment of society. These campaigns are\
+          conducted round the year to serve the mankind.",
+      [NEU3, NEU2, NEU1],
+    ],
+  };
   return (
     <div>
-      <div className={styles.heading}>{children}</div>
+      <div className={styles.heading}>{name}</div>
       <div className={styles.bodypart}>
-        <div className={styles.leftpart}>
-          Alcheringa hosts several campaigns under Initiatives for cultural
-          development and the betterment of society. These campaigns are
-          conducted round the year to serve the mankind.
-        </div>
+        <div className={styles.leftpart}>{content[name][0]}</div>
         <div className={styles.rightpart}>
           <img
-            src={pic1}
+            src={content[name][1][0]}
             alt=""
             style={{
+              objectFit: "cover",
               height: "20vw",
               width: "46vw",
               overflow: "hidden",
@@ -27,9 +75,11 @@ const Aikyam = (props) => {
           />
           <div style={{ display: "flex" }}>
             <img
-              src={pic2}
+              src={content[name][1][1]}
               alt=""
               style={{
+                objectFit: "cover",
+
                 height: "15vw",
                 width: "23vw",
                 overflow: "hidden",
@@ -40,9 +90,11 @@ const Aikyam = (props) => {
               }}
             />
             <img
-              src={pic3}
+              src={content[name][1][2]}
               alt=""
               style={{
+                objectFit: "cover",
+
                 height: "15vw",
                 width: "22vw",
                 marginTop: "2vw",

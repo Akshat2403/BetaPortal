@@ -14,7 +14,7 @@ import scissors from "./images/events_component_scissors.svg";
 //   return () => openInNewTab(url.link);
 // };
 
-const EventsComponent = ({ images, title, link }) => {
+const EventsComponent = ({ images, title }) => {
   return (
     <div className={comp.one_section}>
       <div className={comp.text_crsl}>

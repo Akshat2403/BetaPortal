@@ -28,6 +28,7 @@
 {
     /* background-image: url("../Images/alcher_image.png"); */
     background: url("../Images/alcher_image.png");
+    /* object-fit: cover; */
     width:100vw;
     height:100vh;
     /* z-index: -1; */

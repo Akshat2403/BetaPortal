@@ -12,7 +12,7 @@ const TeamsIntro = () => {
     <React.Fragment>
       <div className={teamcss.container_comp}>
         <div className={teamcss.text_comp}>
-          <div className={teamcss.heading_comp}>TEAM</div>
+          <div className={teamcss.heading_comp}> THE TEAM</div>
           <div className={teamcss.description}>
             All students, from the fourth year mentors to the first-year
             freshers, play an active role in actualising the four days of

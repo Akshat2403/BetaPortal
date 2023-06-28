@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 .mainnavclass
 {
+    position: fixed;
+    top:0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: auto;
     height: 5vw;
-    background-image: url('../Images/bgd.png');
+  background-color: rgba(133, 133, 133,1);
+
+    /* background-image: url('../Images/bgd.png'); */
 }
  .leftside
 {
@@ -45,7 +49,7 @@ a{
     padding-left: 1vw;
     padding-right: 1vw;
     text-decoration: none;
-    text-decoration: underline;
+    text-decoration: underline 12px;
     font-family: 'DM Sans', sans-serif;
     /* padding-top: 5vw; */
  }

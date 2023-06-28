@@ -160,7 +160,7 @@ const Middlepart = ({ setScrollRef }) => {
             onMouseDown={() => handleHover(true)}
             onMouseUp={() => handleHover(false)}
           >
-            <Aikyam>AIKYAM</Aikyam>
+            <Aikyam name="Aikyam"></Aikyam>
           </div>
         </div>
         <div className={styles.second}>
@@ -172,7 +172,7 @@ const Middlepart = ({ setScrollRef }) => {
             onMouseDown={() => handleHover(true)}
             onMouseUp={() => handleHover(false)}
           >
-            <Aikyam>MANSHAKTI</Aikyam>
+            <Aikyam name="MANSHAKTI"></Aikyam>
           </div>
         </div>
         <div className={styles.third}>
@@ -184,7 +184,7 @@ const Middlepart = ({ setScrollRef }) => {
             onMouseDown={() => handleHover(true)}
             onMouseUp={() => handleHover(false)}
           >
-            <Aikyam>SAFHER</Aikyam>
+            <Aikyam name="SAFHER"></Aikyam>
           </div>
         </div>
         <div className={styles.fourth}>
@@ -196,7 +196,7 @@ const Middlepart = ({ setScrollRef }) => {
             onMouseDown={() => handleHover(true)}
             onMouseUp={() => handleHover(false)}
           >
-            <Aikyam>PRITHVI</Aikyam>
+            <Aikyam name="Prithvi" />
           </div>
         </div>
         <div className={styles.fifth}>
@@ -208,7 +208,7 @@ const Middlepart = ({ setScrollRef }) => {
             onMouseDown={() => handleHover(true)}
             onMouseUp={() => handleHover(false)}
           >
-            <Aikyam>NORTH-EAST UNVIELD</Aikyam>
+            <Aikyam name="NORTH-EAST UNVIELD"></Aikyam>
           </div>
         </div>
         <div className={styles.sixth}>
@@ -220,7 +220,7 @@ const Middlepart = ({ setScrollRef }) => {
             onMouseDown={() => handleHover(true)}
             onMouseUp={() => handleHover(false)}
           >
-            <Aikyam>UDAAN</Aikyam>
+            <Aikyam name="UDAAN"></Aikyam>
           </div>
         </div>
       </div>
