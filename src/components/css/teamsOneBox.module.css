@@ -36,3 +36,8 @@
   font-weight: 500;
   font-size: 1.4vw;
 }
+@media (orientation: portrait) {
+  .box > div {
+    letter-spacing: 0;
+  }
+}

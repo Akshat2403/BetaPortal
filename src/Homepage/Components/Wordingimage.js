@@ -19,7 +19,7 @@ const WordingsImage = () => {
           className={styles.givefont1}
           style={{ color: "white", fontFamily: "Montserrat" }}
         >
-          The largest Cultural Fest of
+          The Largest Cultural Fest of
           <br /> North-East India
         </div>
       </div>

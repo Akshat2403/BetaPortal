@@ -10,13 +10,10 @@ import nite2 from "./components/images/nite2.jpg";
 const images1 = [
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
   pro1,
-  pro1,
 ];
 const images2 = [
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
   nite1,
-  nite1,
-  nite2,
   nite2,
 ];
 

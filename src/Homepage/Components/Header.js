@@ -1,4 +1,4 @@
-import alcher2023 from "../Images/ALCHER20232.jpg";
+import alcher2023 from "../Images/alcher_image.png";
 import alcher2022 from "../Images/alcher2022.jpg";
 // import alcher2021 from "../Images/alcher2021.jpg";
 import alcher2020 from "../Images/alcher2020.jpg";
