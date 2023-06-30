@@ -168,7 +168,33 @@
     background-size: 12vw;
     background-repeat: no-repeat;
 }
-
+.ontopwords
+{
+    z-index: 2;
+    height: 6vw;
+    width: 30vw;
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3vw;
+}
+.ontopwords1
+{
+    z-index: 2;
+    height: 6vw;
+    width: 20vw;
+    position: absolute;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3vw;
+}
 @media (orientation: portrait) {
     .body
     {

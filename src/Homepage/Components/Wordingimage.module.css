@@ -21,6 +21,12 @@
    display: flex;
   /*   */
 }
+.givefont2
+{
+  font-size:1.5vw;
+   display: flex;
+  /*   */
+}
 .maindiv
 {
   right:23vw;
@@ -49,33 +55,55 @@
     flex-direction: column;
     align-content: center;
     position: relative;
-    /* justify-content: center; */
+    text-align: center;
   }
   .animesdiv
 {
   position: absolute;
-  right: -35vw;
+  right: -37vw;
   top: 35vh;
-  /* margin-top: 2vw; */
 }
 .submain
 {
-  position: absolute;
-  right: -60vw;
-
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute; 
+  right: -45vw;
+  
 }
   .alch
   {
     font-size: 10vw;
+    margin-left: 3.5vw;
   }
   .givefont
 {
   font-size:3vw;
+  text-align: center;
+  margin-left: 3.5vw;
 }
 .givefont1
 {
-  font-size:3vw;
+  font-size:3.5vw;
   width: 70vw;
+  /* margin-left: 20vw; */
+  /* text-align: center; */
+  position: relative;
+  left: 14vw;
 }
-
+.givefont2
+{
+  font-size:3.5vw;
+  width: 70vw;
+  /* margin-left: 20vw; */
+  /* text-align: center; */
+  position: relative;
+  left: 22.5vw;
+}
+.maindiv
+{
+  align-content: center;
+}
 }

@@ -10,11 +10,13 @@ const WordingsImage = () => {
             <div className={styles.alch}>
                 ALCHERINGA
             </div>
+            <div className={styles.onlymob}>
             <div className={styles.givefont1} style={{color:'white',fontFamily:'Montserrat'}}>
                 The largest Cultural Fest of
             </div>
-            <div className={styles.givefont1} style={{color:'white',fontFamily:'Montserrat'}}>
+            <div className={styles.givefont2} style={{color:'white',fontFamily:'Montserrat'}}>
                 North-East India
+            </div>
             </div>
             </div>
             <div className={styles.animesdiv} >
