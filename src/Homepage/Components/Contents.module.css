@@ -184,27 +184,73 @@
     z-index: 2;
     height: 6vw;
     width: 30vw;
-    position: absolute;
-    
+    /* position: absolute; */
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 3vw;
+    font-family: Montserrat;
+    font-size: 2vw;
 }
 .ontopwords1
 {
     z-index: 2;
     height: 6vw;
-    width: 20vw;
-    position: absolute;
-    
+    /* width: 20vw; */
+    /* position: absolute; */
+    font-weight: 700;
+    font-family: Montserrat;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 3vw;
+    font-size: 2vw;
+    line-height: 2vw;
+}
+.div1bgd
+{
+    background: url('../Images/Rectangle5.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.div2bgd
+{
+    background: url('../Images/Rectangle2.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.div3bgd
+{
+    background: url('../Images/Rectangle6.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.div4bgd
+{
+    background: url('../Images/Rectangle7.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.div5bgd
+{
+    background: url('../Images/Rectangle1.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
 }
 @media (orientation: portrait) {
     .body

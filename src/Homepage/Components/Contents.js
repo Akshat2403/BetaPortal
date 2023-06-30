@@ -76,45 +76,45 @@ const Contents = () => {
       <div className={styles.heading}>Featured Events</div>
       <div style={{display:'flex',flexWrap:"wrap",marginBottom:"-35vw",alignItems:"center",overflowX:"hidden"}}>
                 <div style={{display:"flex",flexDirection:"column"}}>
-                    <div style={{width:'45vw',height:'20vw',marginBottom:'0.6vw',borderTopRightRadius:'5vw',borderBottomLeftRadius:'5vw',overflow:'hidden',position:'relative'}}>
-                        <img src={swan5}   alt="" />
-                    <div style={{top:'14vw',left:'7vw'}} className={styles.ontopwords}>
+                    <div className={styles.div1bgd} style={{width:'45vw',height:'20vw',marginBottom:'0.6vw',borderTopRightRadius:'5vw',borderBottomLeftRadius:'5vw',overflow:'hidden'}}>
+                        {/* <img src={swan5}   alt="" /> */}
+                    <div className={styles.ontopwords}>
                         Pronites
                     </div>
 
                     </div>
-                    <div style={{width:'45vw',height:'20vw',marginTop:'0.6vw',overflow:'hidden',borderBottomRightRadius:'5vw',borderTopLeftRadius:'5vw',position:'relative'}}>
+                    <div className={styles.div2bgd} style={{width:'45vw',height:'20vw',marginTop:'0.6vw',overflow:'hidden',borderBottomRightRadius:'5vw',borderTopLeftRadius:'5vw',}}>
 
-                <img src={swan2}  alt="" />
-                <div style={{top:'13vw',left:'9vw'}} className={styles.ontopwords}>
+                {/* <img src={swan2}  alt="" /> */}
+                <div  className={styles.ontopwords}>
                         Creator's Camp
                     </div>
                     </div>
                 </div>
                 <div style={{display:"flex",flexDirection:"column",marginLeft:"1vw",marginRight:"1vw"}}>
-                    <div style={{width:'20vw',height:'40vw',overflow:'hidden',borderBottomLeftRadius:'5vw',borderTopRightRadius:'5vw',backgroundColor:'grey',position:'relative'}}>
+                    <div className={styles.div3bgd} style={{width:'20vw',height:'40vw',overflow:'hidden',borderBottomLeftRadius:'5vw',borderTopRightRadius:'5vw',backgroundColor:'grey',}}>
 
-                <img src={swan6}  alt="" />
-                <div style={{top:'28vw',left:'4vw'}} className={styles.ontopwords1}>
+                {/* <img src={swan6}  alt="" /> */}
+                <div className={styles.ontopwords1}>
                         Critical Damage
                     </div>
                     </div>
                 </div>
                 <div style={{display:"flex",flexDirection:"column"}}>
-                    <div style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopLeftRadius:'5vw',borderBottomRightRadius:'5vw',overflow:'hidden',backgroundColor:'grey',position:'relative'}} >
+                    <div className={styles.div4bgd} style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopLeftRadius:'5vw',borderBottomRightRadius:'5vw',overflow:'hidden',backgroundColor:'grey',}} >
 
-                <img src={swan7}  alt="" />
+                {/* <img src={swan7}  alt="" /> */}
 
 
-                <div style={{top:'13vw',left:'-6vw'}} className={styles.ontopwords}>
+                <div  className={styles.ontopwords}>
                         Informals
                     </div>
                     </div>
-                    <div style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopRightRadius:'5vw',borderBottomLeftRadius:'5vw',overflow:'hidden',backgroundColor:'grey',position:'relative'}} >
+                    <div className={styles.div5bgd} style={{width:'20vw',height:'20vw',marginBottom:'0.6vw',borderTopRightRadius:'5vw',borderBottomLeftRadius:'5vw',overflow:'hidden',backgroundColor:'grey',}} >
 
-                <img src={swan1}  alt="" />
+                {/* <img src={swan1}  alt="" /> */}
 
-                <div style={{top:'12vw',left:'-6vw'}} className={styles.ontopwords}>
+                <div  className={styles.ontopwords}>
                         Proshows
                     </div>
                 
