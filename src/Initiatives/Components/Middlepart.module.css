@@ -76,9 +76,9 @@
     animation: companimes 10s infinite;
 } */
 
-/* .animate .animationElement {
+.animate .animationElement {
     animation: companimes 60s infinite;
-  } */
+  }
   .animate .animationElement.paused {
     animation-play-state: paused;
   }

@@ -41,9 +41,9 @@ class Footer extends Component {
             </div>
             <div
               className="footer-img-1"
-              style={{ width: "13%", marginTop: "auto" }}
+              style={{ width: "15%", marginTop: "auto", paddingTop: "2vw" }}
             >
-              <img src={footer_logo} width="100%" />
+              <img src={footer_logo} style={{ width: "13vw" }} />
             </div>
             <div className="flex flex-col items-end footer-right dm-sans">
               <div>For business- related </div>
@@ -99,12 +99,16 @@ class Footer extends Component {
               style={{ width: "13%", marginTop: 30 }}
               className="footer-img-2"
             >
-              <img src={footer_logo} width="100%" />
+              <img src={footer_logo} style={{ width: "12vw" }} />
             </div>
           </center>
           <div
-            className="text-center mt-2 Heading-pro"
-            style={{ fontSize: "6vw", transform: "translate(0,12px)" }}
+            className="text-center mt-4 Heading-pro"
+            style={{
+              fontSize: "6vw",
+              transform: "translate(0,12px)",
+              paddingTop: "2vw",
+            }}
           >
             IIT GUWAHATI'S
           </div>

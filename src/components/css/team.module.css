@@ -31,6 +31,7 @@
 }
 
 h2 {
+  font-size: calc(1.65rem + 1.5vw)!important;
   text-align: center;
 }
 .text_comp {
@@ -62,6 +63,10 @@ h2 {
   cursor: pointer;
 }
 @media (orientation: portrait) {
+  h2 {
+    font-size: calc(1.3rem + 0.9vw)!important;
+    text-align: center;
+  }
   .text_comp {
     display: flex;
     flex-direction: column;

@@ -1,18 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
 .navbar {
+  position: fixed;
+  /* position: -webkit-sticky; */
+  /* filter:drop-shadow(2px 2px rgb(0, 0, 0)); */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 5vw;
   color: white;
   z-index: 10;
-  position: absolute;
+  top: 0;
   padding: 0 6vw;
   width: 100vw;
   /* background-color: rgba(19, 133, 66, 1); */
-  /* background-color: rgba(255, 255, 255,0.4); */
-  background-image: url("../images/navbar_bg.svg");
+  backdrop-filter: blur(2px);
+  /* box-shadow: 1px 1px rgba(89, 89, 89, 0.5); */
+  background-color: rgba(24, 24, 24, 0.3);
+  /* background-image: url("../images/navbar_bg.svg"); */
 }
 .leftsidenav {
   display: flex;
@@ -60,8 +65,9 @@
   text-decoration: none;
   text-decoration: underline;
   text-decoration-color: white;
-  text-decoration-thickness: 0.2vw;
+  text-decoration-thickness: 0.25vw;
 }
+
 .hamburger {
   width: 8vw;
   z-index: 99;

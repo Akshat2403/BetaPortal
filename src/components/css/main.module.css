@@ -4,11 +4,12 @@ body {
   overflow-x: hidden;
 }
 .hed {
+  font-family: "Montserrat", sans-serif;
   padding-left: 4vw;
   display: block;
-  font-size: 4vw;
+  font-size: calc(1.35rem + 1.5vw)!important;
   margin-top: 8vw !important;
-  margin-left: 5vw;
+  /* margin-left: 5vw; */
   text-align: left !important;
   font-weight: 700;
   font-size: 3vw;
@@ -63,13 +64,14 @@ body {
 }
 .box {
   position: relative;
-  height: 25vw;
+  height: 27vw;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
 }
 
 .box_text {
+  padding-bottom: 1vw;
   width: 100%;
   position: absolute;
   bottom: 0;

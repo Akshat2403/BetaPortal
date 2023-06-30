@@ -12,9 +12,11 @@ const Header = () => {
     <div>
       <div className={styles.container_comp}>
         <div className={styles.text_comp}>
-          <div className={styles.heading_comp}>INITIATIVES</div>
+          <div className={styles.heading_comp}>THE INITIATIVES</div>
           <div className={styles.description}>
-          Alcheringa hosts several campaigns under Initiatives for cultural development and the betterment of society. These campaigns are conducted round the year to serve the mankind.
+            Alcheringa hosts several campaigns under Initiatives for cultural
+            development and the betterment of society. These campaigns are
+            conducted round the year to serve the mankind.
           </div>
         </div>
         <img
@@ -23,7 +25,7 @@ const Header = () => {
           className={styles.down_arrow}
         />
       </div>
-      <div ref={ref} ></div>
+      <div ref={ref}></div>
     </div>
   );
 };
