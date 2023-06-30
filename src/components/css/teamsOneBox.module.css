@@ -21,16 +21,16 @@
 .name {
   margin-top: 1vw;
   font-weight: bold;
-  font-size: 1.8vw;
+  font-size: calc(0.5rem + 1vw);
 }
 
 .designation {
   font-weight: bold;
-  font-size: 1.8vw;
+  font-size: calc(0.3rem + 1vw);
 }
 .number {
   font-weight: 500;
-  font-size: 1.4vw;
+  font-size: calc(0.3rem + 1vw);
 }
 .email {
   font-weight: 500;

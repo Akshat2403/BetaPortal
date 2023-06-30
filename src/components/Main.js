@@ -18,8 +18,6 @@ import c8 from "./images/c8.jpg";
 import c11 from "./images/c11.jpg";
 // import c1 from "./images/c1.jpg";
 
-const img =
-  "https://images.unsplash.com/photo-1625637870692-ddd9cd870757?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1lbWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60";
 const Main = () => {
   return (
     <>

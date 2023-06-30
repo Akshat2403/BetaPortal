@@ -211,15 +211,18 @@
 }
 .div1bgd
 {
-    background: url('../Images/Rectangle5.png');
-    background-repeat: no-repeat;
+    background-image: url('../Images/pro.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 .div2bgd
 {
-    background: url('../Images/Rectangle2.png');
+    background: url('../Images/cc.jpg');
+    background-size: cover;
+
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
@@ -228,7 +231,9 @@
 }
 .div3bgd
 {
-    background: url('../Images/Rectangle6.png');
+    background: url('../Images/cd.jpg');
+    background-size: cover;
+
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
@@ -236,7 +241,8 @@
 }
 .div4bgd
 {
-    background: url('../Images/Rectangle7.png');
+    background: url('../Images/informals.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
@@ -245,7 +251,8 @@
 }
 .div5bgd
 {
-    background: url('../Images/Rectangle1.png');
+    background: url('../Images/show.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;

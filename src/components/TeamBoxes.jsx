@@ -14,6 +14,11 @@ import Sushant from "./images/Sushant.jpg";
 import virat from "./images/Virat.jpg";
 import swapnil from "./images/Swapnil.jpg";
 import ankit from "./images/ankit.jpg";
+import shanta from "./images/Shantanu.jpg";
+import priya from "./images/Priyanshu.jpg";
+import prath from "./images/Pratham.jpg";
+import rachit from "./images/rachit.png";
+
 // import akshat from "./images/akshat.jpg";
 function getBoxesEvents(num) {
   const array = [];
@@ -29,7 +34,7 @@ function getBoxesEvents(num) {
   );
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={priya}
       name="Priyanshu Sinha "
       designation="Pro-nites Coordinator"
       number="+-1231231"
@@ -63,6 +68,7 @@ function getBoxesCreatives(num) {
   array.push(
     <TeamsOneBox
       link={swapnil}
+      name="Swapnil Banerjee"
       designation="Web-Design Head"
       number="+-1231231"
       email="asdasd@gmail.com"
@@ -151,7 +157,7 @@ function getBoxesDev(num) {
   );
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={shanta}
       name="Shantanu Chaudhari "
       designation="App-Ops Head"
       number="+-1231231"
@@ -175,7 +181,7 @@ function getBoxesMUN(num) {
   );
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={prath}
       name="Pratham Garg"
       designation="Director General"
       number="+-1231231"
@@ -190,7 +196,7 @@ function getBoxesMarky(num) {
 
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={rachit}
       name="Rachit Awasthi"
       designation="CRM Head"
       number="+-1231231"
