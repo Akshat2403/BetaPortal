@@ -14,9 +14,11 @@ const CompetitionsIntro = () => {
         <div className={introcss.text_comp}>
           <div className={introcss.heading_comp}>COMPETITIONS</div>
           <div className={introcss.description}>
-            Alcheringa hosts several campaigns under Initiatives for cultural
-            development and the betterment of society. These campaigns are
-            conducted round the year to serve the mankind.
+            Alcheringa has many competitions spread across various genres. They
+            take place during the three days with the prize distribution on the
+            last day. People all over the country participate in these
+            competitions to win exciting prizes and goodies and to witness one
+            of India's biggest cultural festival.
           </div>
         </div>
         <img

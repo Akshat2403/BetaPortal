@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.358b620e.css",
-    "main.js": "/static/js/main.62752699.js",
+    "main.css": "/static/css/main.5023ea2f.css",
+    "main.js": "/static/js/main.9c5f7b2c.js",
     "static/media/alcher2019.jpg": "/static/media/alcher2019.e3c6d1f48b2cf909cee3.jpg",
     "static/media/prithvi2.jpg": "/static/media/prithvi2.43046ce7a9743d6ff0e2.jpg",
     "static/media/alcher_image.png": "/static/media/alcher_image.fe917ad29b88592f1f00.png",
@@ -101,11 +101,11 @@
     "static/media/teams_rectangle2.svg": "/static/media/teams_rectangle2.ede5321ffaa1cceb965f18130d8604bd.svg",
     "static/media/teams_rectangle4.svg": "/static/media/teams_rectangle4.a0fd9bf73187db0fb077c41fcb802565.svg",
     "static/media/purple_triangle.svg": "/static/media/purple_triangle.968a7c556a08e18c13e9234fbd346d33.svg",
-    "main.358b620e.css.map": "/static/css/main.358b620e.css.map",
-    "main.62752699.js.map": "/static/js/main.62752699.js.map"
+    "main.5023ea2f.css.map": "/static/css/main.5023ea2f.css.map",
+    "main.9c5f7b2c.js.map": "/static/js/main.9c5f7b2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.358b620e.css",
-    "static/js/main.62752699.js"
+    "static/css/main.5023ea2f.css",
+    "static/js/main.9c5f7b2c.js"
   ]
 }

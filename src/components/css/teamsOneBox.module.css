@@ -30,7 +30,7 @@
 }
 .number {
   font-weight: 500;
-  font-size: calc(0.3rem + 1vw);
+  font-size: calc(.2rem + 1.1vw);
 }
 .email {
   font-weight: 500;

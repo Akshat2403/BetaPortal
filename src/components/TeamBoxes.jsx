@@ -63,7 +63,7 @@ function getBoxesCreatives(num) {
       name="Sushant Sawant "
       designation="Creatives Head"
       number="+91 9284802056"
-      // email="asdasd@gmail.com"
+      email="creatives@alcheringa.in"
     />
   );
   array.push(
@@ -72,7 +72,7 @@ function getBoxesCreatives(num) {
       name="Swapnil Banerjee"
       designation="Web-Design Head"
       number="+91 8478018310"
-      // email="asdasd@gmail.com"
+      email="creatives@alcheringa.in"
     />
   );
   array.push(
@@ -81,7 +81,7 @@ function getBoxesCreatives(num) {
       name="Virat Dubey "
       designation="Digital Media Head"
       number="+919322603447"
-      // email="asdasd@gmail.com"
+      email="creatives@alcheringa.in"
     />
   );
 
