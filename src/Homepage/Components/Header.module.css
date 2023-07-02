@@ -39,7 +39,7 @@
 {
     position: absolute;
     z-index: 1;
-    right: 37vw;
+    right: 39vw;
     top:4vh;
 }
 
@@ -61,8 +61,8 @@
     }
     .bgd
     {
-        background-size: 100vw 50vh;
-      height: 50vh;
+        background-size: 100vw 58vh;
+      height: 58vh;
       /* padding-top: 17vh; */
     }
     

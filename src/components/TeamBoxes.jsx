@@ -93,7 +93,7 @@ function getBoxesPRB(num) {
   array.push(
     <TeamsOneBox
       link={Anurag}
-      name="Anurag Sharma"
+      name="Anurag"
       designation="PR Head"
       number="+91 7061520276"
       email="anurag@alcheringa.in"
@@ -102,7 +102,7 @@ function getBoxesPRB(num) {
   array.push(
     <TeamsOneBox
       link={ankit}
-      name="Ankit Das"
+      name="Ankit Kumar"
       designation="PR Head"
       number="+91 8340349585"
       email="ankit.k@alcheringa.in"

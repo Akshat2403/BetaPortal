@@ -28,7 +28,7 @@ class Footer extends Component {
         >
           <div className="flex flex-row justify-between footer-items dm-sans">
             <div style={{ width: "33%" }}>
-              Anurag Sharma - PR Head
+              Anurag - PR Head
               <br />
               +91-70615-20276
               <br />

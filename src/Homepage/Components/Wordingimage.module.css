@@ -69,7 +69,7 @@ font-weight: 600;
 {
   position: absolute;
   right: -37vw;
-  top: 35vh;
+  top: 39vh;
 }
 .submain
 {
@@ -77,11 +77,12 @@ font-weight: 600;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  position: absolute; 
-  right: -45vw;
+  /* position: absolute;  */
   justify-content: center;
   align-items: center;
-  width: 95vw;
+  right: -50vw;
+  text-align: center;
+  width: 90vw;
   margin-left: 0;
 
 }
@@ -89,7 +90,7 @@ font-weight: 600;
   {
     font-size: 10vw;
     margin-left: 3.5vw;
-    margin-top: 3vw;
+    margin-top: calc(0.3rem + 1.5vw);
   }
   .givefont
 {
@@ -104,7 +105,7 @@ font-weight: 600;
   /* margin-left: 20vw; */
   /* text-align: center; */
   position: relative;
-  left: 14vw;
+  left: 12vw;
 }
 .givefont2
 {
