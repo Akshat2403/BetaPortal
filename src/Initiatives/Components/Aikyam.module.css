@@ -30,10 +30,11 @@
 {
     display: flex;
     flex-wrap: wrap;
-    font-size: 2vw;
+    font-size: 1.2vw;
     margin-top: 8vw;
     margin-left: 4vw;
-    width: 45vw;
+    margin-right: 2vw;
+    width: 40vw;
     font-family: DMSans;
 }
 .rightpart

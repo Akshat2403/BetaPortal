@@ -13,10 +13,10 @@ import c5 from "./images/c5.jpg";
 import c6 from "./images/c6.jpg";
 import c7 from "./images/c7.jpg";
 import c8 from "./images/c8.jpg";
-// import c1 from "./images/c1.jpg";
-// import c1 from "./images/c1.jpg";
+import c9 from "./images/art.jpg";
+import c10 from "./images/dd.jpg";
 import c11 from "./images/c11.jpg";
-// import c1 from "./images/c1.jpg";
+import c12 from "./images/lca.jpg";
 
 const Main = () => {
   return (
@@ -136,7 +136,7 @@ const Main = () => {
           <div
             className={`${maincss.box} ${maincss.item5}`}
             style={{
-              backgroundImage: `url(${c1})`,
+              backgroundImage: `url(${c9})`,
             }}
           >
             <div className={maincss.box_text}>Art Talkies</div>
@@ -144,7 +144,7 @@ const Main = () => {
           <div
             className={`${maincss.box} ${maincss.item3}`}
             style={{
-              backgroundImage: `url(${c1})`,
+              backgroundImage: `url(${c10})`,
             }}
           >
             <div className={maincss.box_text}>Digital Dexterity</div>
@@ -160,7 +160,7 @@ const Main = () => {
           <div
             className={`${maincss.box} ${maincss.item3}`}
             style={{
-              backgroundImage: `url(${c1})`,
+              backgroundImage: `url(${c12})`,
             }}
           >
             <div className={maincss.box_text}>Lights Camera Action</div>

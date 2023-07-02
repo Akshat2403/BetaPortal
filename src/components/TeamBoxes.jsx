@@ -18,6 +18,7 @@ import shanta from "./images/Shantanu.jpg";
 import priya from "./images/Priyanshu.jpg";
 import prath from "./images/Pratham.jpg";
 import rachit from "./images/rachit.png";
+import Anurag from "./images/Anurag.jpg";
 
 // import akshat from "./images/akshat.jpg";
 function getBoxesEvents(num) {
@@ -28,8 +29,8 @@ function getBoxesEvents(num) {
       link={abhinav}
       name="Abhinav Pratap Singh "
       designation="Events Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 8299121435"
+      email="abhinav@alcheringa.in"
     />
   );
   array.push(
@@ -37,8 +38,8 @@ function getBoxesEvents(num) {
       link={priya}
       name="Priyanshu Sinha "
       designation="Pro-nites Coordinator"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 9650757099"
+      email="priyanshu.s@alcheringa.in"
     />
   );
   array.push(
@@ -46,8 +47,8 @@ function getBoxesEvents(num) {
       link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
       name="Rahul Singh "
       designation="Campaigns Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 7518509062"
+      email="rahul@alcheringa.in"
     />
   );
 
@@ -61,8 +62,8 @@ function getBoxesCreatives(num) {
       link={Sushant}
       name="Sushant Sawant "
       designation="Creatives Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 9284802056"
+      // email="asdasd@gmail.com"
     />
   );
   array.push(
@@ -70,8 +71,8 @@ function getBoxesCreatives(num) {
       link={swapnil}
       name="Swapnil Banerjee"
       designation="Web-Design Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 8478018310"
+      // email="asdasd@gmail.com"
     />
   );
   array.push(
@@ -80,7 +81,7 @@ function getBoxesCreatives(num) {
       name="Virat Dubey "
       designation="Digital Media Head"
       number="+919322603447"
-      email="asdasd@gmail.com"
+      // email="asdasd@gmail.com"
     />
   );
 
@@ -91,11 +92,11 @@ function getBoxesPRB(num) {
 
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={Anurag}
       name="Anurag Sharma"
       designation="PR Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 7061520276"
+      email="anurag@alcheringa.in"
     />
   );
   array.push(
@@ -103,8 +104,8 @@ function getBoxesPRB(num) {
       link={ankit}
       name="Ankit Das"
       designation="PR Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 8340349585"
+      email="ankit.k@alcheringa.in"
     />
   );
   array.push(
@@ -112,8 +113,8 @@ function getBoxesPRB(num) {
       link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
       name="Lakshya Kohli"
       designation="Media & Outreach Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 7082763383"
+      email="lakshya@alcheringa.in"
     />
   );
 
@@ -127,8 +128,8 @@ function getBoxesHead(num) {
       link={conv}
       name="Govind Madhav Vyas"
       designation="Convener"
-      number="+918875833508"
-      email="webops@alcheringa.in"
+      number="+91 9406871655"
+      email="madhav@alcheringa.in"
     />
   );
   array.push(
@@ -136,8 +137,8 @@ function getBoxesHead(num) {
       link={fh}
       name="Sabir Singh"
       designation="Finance Head"
-      number="+-1231231"
-      email="webops@alcheringa.in"
+      number="+91 8950314110"
+      email="sabir@alcheringa.in"
     />
   );
 
@@ -151,7 +152,7 @@ function getBoxesDev(num) {
       link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
       name="Akshat"
       designation="Web-Ops Head"
-      number="+918875833508"
+      number="+91 8875833508"
       email="webops@alcheringa.in"
     />
   );
@@ -160,7 +161,7 @@ function getBoxesDev(num) {
       link={shanta}
       name="Shantanu Chaudhari "
       designation="App-Ops Head"
-      number="+-1231231"
+      number="+91 8275493025"
       email="webops@alcheringa.in"
     />
   );
@@ -175,8 +176,8 @@ function getBoxesMUN(num) {
       link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
       name="Samarth Jhunjhunwala"
       designation="Secretary General"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 7981828510"
+      // email="asdasd@gmail.com"
     />
   );
   array.push(
@@ -184,8 +185,8 @@ function getBoxesMUN(num) {
       link={prath}
       name="Pratham Garg"
       designation="Director General"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 7011533630"
+      // email="asdasd@gmail.com"
     />
   );
 
@@ -199,8 +200,8 @@ function getBoxesMarky(num) {
       link={rachit}
       name="Rachit Awasthi"
       designation="CRM Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 8400000512"
+      email="rachit@alcheringa.in"
     />
   );
   array.push(
@@ -208,8 +209,8 @@ function getBoxesMarky(num) {
       link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
       name="Harshit Garg"
       designation="CRM Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 7014850105"
+      email="harshit@alcheringa.in"
     />
   );
   array.push(
@@ -217,8 +218,8 @@ function getBoxesMarky(num) {
       link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
       name="Chakradhar Inaganti"
       designation="CRM Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 8319837535"
+      email="chakradhar@alcheringa.in"
     />
   );
   array.push(
@@ -226,8 +227,8 @@ function getBoxesMarky(num) {
       link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
       name="Kanika Tyagi "
       designation="CRM Head"
-      number="+-1231231"
-      email="asdasd@gmail.com"
+      number="+91 9917481718"
+      email="kanika@alcheringa.in"
     />
   );
 
