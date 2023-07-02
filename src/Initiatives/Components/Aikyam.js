@@ -1,7 +1,4 @@
 import styles from "./Aikyam.module.css";
-import pic1 from "../../Homepage/Images/Rectangle5.png";
-import pic2 from "../../Homepage/Images/Rectangle5.png";
-import pic3 from "../../Homepage/Images/Rectangle5.png";
 import prithvi1 from "../Images/prithvi1.jpg";
 import prithvi2 from "../Images/prithvi2.jpg";
 import prithvi3 from "../Images/prithvi3.jpg";

@@ -1,16 +1,4 @@
 import styles from "./Contents.module.css";
-import swan1 from "../Images/Rectangle1.png";
-import swan2 from "../Images/Rectangle2.png";
-import dotbgd from "../Images/bgd.jpg";
-import sqbgd from "../Images/Rectanglebgd.png";
-import swan5 from "../Images/Rectangle5.png";
-import swan6 from "../Images/Rectangle6.png";
-import swan7 from "../Images/Rectangle7.png";
-import pro from "../Images/pro.jpg";
-import cc from "../Images/cc.jpg";
-import cd from "../Images/cd.jpg";
-import show from "../Images/show.jpg";
-import informals from "../Images/informals.jpg";
 
 const Contents = () => {
   return (
