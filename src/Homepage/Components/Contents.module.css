@@ -102,32 +102,36 @@
 .bgddesign
 {
     /* ,marginBottom:"2.5vw" */
+
     width: 20vw;
-    height:37vw;
-    display:flex;
+    height: 33vw;
+    display: flex;
     justify-self: end;
     position: relative;
-    left:73vw;
-    top:-50vw;
-    background: radial-gradient(circle at 90%,rgba(145, 81, 160, 0.6), rgba(145, 81, 160, 0.4) 50%, #FFFFFF 75%, #FFFFFF 75%);
+    left: 76vw;
+    top: -38vw;
+    background: url(../Images/right.png);
+    background-size: 25vw;
+    background-repeat: no-repeat;
     z-index: -1;
+
 
 }
 .bgddesign1
 {
     /* ,marginBottom:"2.5vw" */
-    width: 10vw;
-    height:12vw;
+    width: 15vw;
+    height:15vw;
     display:flex;
     justify-self: start;
     position: relative;
-    left:-7vw;
-    top:-99vw;
+    left:-12vw;
+    top:-100vw;
     background: url('../Images/bgd.png');
-    background-size: 10vw;
+    background-size: 15vw;
     /* mask-repeat: no-repeat; */
-    border-bottom-right-radius: 20vw;
-    border-top-right-radius: 15vw;
+    /* border-bottom-right-radius: 20vw;
+    border-top-right-radius: 15vw; */
     z-index: -1;
 
 }
@@ -173,7 +177,7 @@
     height: 12vw;
     width: 12vw;
     position: relative;
-    top: -88.3vw;
+    top: -87.3vw;
     right: -76vw;
     background-image: url('../Images/Rectanglebgd.png');
     background-size: 12vw;

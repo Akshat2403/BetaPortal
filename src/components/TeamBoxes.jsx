@@ -19,8 +19,15 @@ import priya from "./images/Priyanshu.jpg";
 import prath from "./images/Pratham.jpg";
 import rachit from "./images/rachit.png";
 import Anurag from "./images/Anurag.jpg";
+import akshat from "./images/akshat.jpg";
+import chakr from "./images/Chakradhar.jpg";
+import rahul from "./images/Rahul.jpg";
+import lakshya from "./images/Lakshya.jpg";
+import harshit from "./images/Harshit.jpg";
+import kanika from "./images/kanika.jpg";
+import sam from "./images/samartha.jpg";
 
-// import akshat from "./images/akshat.jpg";
+
 function getBoxesEvents(num) {
   const array = [];
 
@@ -44,8 +51,8 @@ function getBoxesEvents(num) {
   );
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
-      name="Rahul Singh "
+      link={rahul}
+      name="Rahul Singh"
       designation="Campaigns Head"
       number="+91 7518509062"
       email="rahul@alcheringa.in"
@@ -78,7 +85,7 @@ function getBoxesCreatives(num) {
   array.push(
     <TeamsOneBox
       link={virat}
-      name="Virat Dubey "
+      name="Virat Dubey"
       designation="Digital Media Head"
       number="+919322603447"
       email="creatives@alcheringa.in"
@@ -110,7 +117,7 @@ function getBoxesPRB(num) {
   );
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={lakshya}
       name="Lakshya Kohli"
       designation="Media & Outreach Head"
       number="+91 7082763383"
@@ -149,7 +156,7 @@ function getBoxesDev(num) {
 
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={akshat}
       name="Akshat"
       designation="Web-Ops Head"
       number="+91 8875833508"
@@ -173,7 +180,7 @@ function getBoxesMUN(num) {
 
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={sam}
       name="Samarth Jhunjhunwala"
       designation="Secretary General"
       number="+91 7981828510"
@@ -206,7 +213,7 @@ function getBoxesMarky(num) {
   );
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={harshit}
       name="Harshit Garg"
       designation="CRM Head"
       number="+91 7014850105"
@@ -215,7 +222,7 @@ function getBoxesMarky(num) {
   );
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={chakr}
       name="Chakradhar Inaganti"
       designation="CRM Head"
       number="+91 8319837535"
@@ -224,7 +231,7 @@ function getBoxesMarky(num) {
   );
   array.push(
     <TeamsOneBox
-      link="https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+      link={kanika}
       name="Kanika Tyagi "
       designation="CRM Head"
       number="+91 9917481718"

@@ -16,7 +16,7 @@ const Navbar = (ind) => {
         }`}
       >
         <div className={styles.leftsidenav}>
-          <img className={styles.imgdeco} src={logo} alt="" />
+          <img className={styles.imgdeco} src={logo} alt="Alcheringa" />
           <a
             className={styles.alcherhead}
             // style={{

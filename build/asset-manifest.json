@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.5023ea2f.css",
-    "main.js": "/static/js/main.9c5f7b2c.js",
+    "main.css": "/static/css/main.cc0dcfa8.css",
+    "main.js": "/static/js/main.39aefc4a.js",
+    "static/media/samartha.jpg": "/static/media/samartha.ece5b89e327bf81c7712.jpg",
     "static/media/alcher2019.jpg": "/static/media/alcher2019.e3c6d1f48b2cf909cee3.jpg",
     "static/media/prithvi2.jpg": "/static/media/prithvi2.43046ce7a9743d6ff0e2.jpg",
     "static/media/alcher_image.png": "/static/media/alcher_image.fe917ad29b88592f1f00.png",
@@ -18,8 +19,11 @@
     "static/media/safher1.jpg": "/static/media/safher1.0597ba8c6625fa607025.jpg",
     "static/media/man2.jpg": "/static/media/man2.600b2c301f09d2171c9a.jpg",
     "static/media/Anurag.jpg": "/static/media/Anurag.96821ffe096182fe93aa.jpg",
+    "static/media/Chakradhar.jpg": "/static/media/Chakradhar.d5d06f96e45050aa6ba8.jpg",
     "static/media/diamondbgd.png": "/static/media/diamondbgd.c9a80b966a1334dd968a.png",
+    "static/media/akshat.jpg": "/static/media/akshat.221491df2ecfeec55e83.jpg",
     "static/media/man3.jpg": "/static/media/man3.d0f4589b222f7acc1f96.jpg",
+    "static/media/Rahul.jpg": "/static/media/Rahul.3770b9d8f38a28c48c9f.jpg",
     "static/media/ankit.jpg": "/static/media/ankit.19d5eea2bc792f9377e3.jpg",
     "static/media/cd.jpg": "/static/media/cd.ffff762f16a8e36b2cf8.jpg",
     "static/media/pro1.jpg": "/static/media/pro1.d6a5d2b11b2957777faf.jpg",
@@ -27,6 +31,7 @@
     "static/media/udaan2.jpg": "/static/media/udaan2.2bbc019ae2cc36761fb8.jpg",
     "static/media/safher3.jpg": "/static/media/safher3.43d00c63ced4ef60e468.jpg",
     "static/media/cc.jpg": "/static/media/cc.708c7165e9e29e5bffa8.jpg",
+    "static/media/Harshit.jpg": "/static/media/Harshit.633aa8fd52b7de234b61.jpg",
     "static/media/udaan1.jpg": "/static/media/udaan1.37d194467152f7d50fff.jpg",
     "static/media/prithvi1.jpg": "/static/media/prithvi1.f5d1fe5595d740911a58.jpg",
     "static/media/cc3.jpg": "/static/media/cc3.9cb6d3571ae619805c46.jpg",
@@ -68,10 +73,12 @@
     "static/media/fc4.jpg": "/static/media/fc4.85c30b0d9bdc297aa3b8.jpg",
     "static/media/Shantanu.jpg": "/static/media/Shantanu.f81b37d80b46c88e4f96.jpg",
     "static/media/Pratham.jpg": "/static/media/Pratham.964853b8e1f4c61257fa.jpg",
+    "static/media/Lakshya.jpg": "/static/media/Lakshya.6b771400f911c2415366.jpg",
     "static/media/c11.jpg": "/static/media/c11.5bb7e73c2aea16bbb3ce.jpg",
     "static/media/comp_cross2.svg": "/static/media/comp_cross2.b38e8378bf55ee82f836.svg",
     "static/media/c7.jpg": "/static/media/c7.487ae5eb403ad14983c4.jpg",
     "static/media/fc5.jpg": "/static/media/fc5.970931ab03ea8549a51e.jpg",
+    "static/media/kanika.jpg": "/static/media/kanika.a2f49e0e8e6d619c71e2.jpg",
     "static/media/DMSans-Regular.ttf": "/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
     "static/media/teams_hero_mask.svg": "/static/media/teams_hero_mask.c81b2a435c1185681d70.svg",
     "static/media/safher2.jpg": "/static/media/safher2.eb05800e1b683d570db8.jpg",
@@ -80,12 +87,13 @@
     "static/media/comp_cross1.svg": "/static/media/comp_cross1.b2848a0aa4c00220e971.svg",
     "static/media/Swapnil.jpg": "/static/media/Swapnil.4fb05f48b56890bfb2f6.jpg",
     "static/media/Sabir.jpg": "/static/media/Sabir.db4b1991aa5509baa57e.jpg",
+    "static/media/right.png": "/static/media/right.ad42c1a0b2280db78515.png",
     "static/media/Fontspring-DEMO-vanguardcf-bold.otf": "/static/media/Fontspring-DEMO-vanguardcf-bold.0e5d4b3106e8ed833242.otf",
     "static/media/teams_pattern.svg": "/static/media/teams_pattern.20710ec7623597795f26fe4801d07e8e.svg",
     "static/media/Masks.png": "/static/media/Masks.21e14c8e3984e24cc00e.png",
     "static/media/Maskgdots.png": "/static/media/Maskgdots.b051cafa16719b87c97b.png",
+    "static/media/bgd.png": "/static/media/bgd.3277a66f07893c406aae.png",
     "static/media/Footer_logo.svg": "/static/media/Footer_logo.4ac14fe2f24a0443a9bc72a28b72e14c.svg",
-    "static/media/bgd.png": "/static/media/bgd.27f1a61b92f1c9223485.png",
     "static/media/instagram.svg": "/static/media/instagram.1b60b125a08b22a11bec20661d936d5a.svg",
     "static/media/twitter.svg": "/static/media/twitter.0c4a401af20e00f103994c7f366c3ea2.svg",
     "index.html": "/index.html",
@@ -101,11 +109,11 @@
     "static/media/teams_rectangle2.svg": "/static/media/teams_rectangle2.ede5321ffaa1cceb965f18130d8604bd.svg",
     "static/media/teams_rectangle4.svg": "/static/media/teams_rectangle4.a0fd9bf73187db0fb077c41fcb802565.svg",
     "static/media/purple_triangle.svg": "/static/media/purple_triangle.968a7c556a08e18c13e9234fbd346d33.svg",
-    "main.5023ea2f.css.map": "/static/css/main.5023ea2f.css.map",
-    "main.9c5f7b2c.js.map": "/static/js/main.9c5f7b2c.js.map"
+    "main.cc0dcfa8.css.map": "/static/css/main.cc0dcfa8.css.map",
+    "main.39aefc4a.js.map": "/static/js/main.39aefc4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5023ea2f.css",
-    "static/js/main.9c5f7b2c.js"
+    "static/css/main.cc0dcfa8.css",
+    "static/js/main.39aefc4a.js"
   ]
 }

@@ -33,7 +33,7 @@ class Footer extends Component {
               +91-70615-20276
               <br />
               <br />
-              Ankit Raj - PR Head
+              Ankit Kumar - PR Head
               <br />
               +91-83403-49585
               <br />

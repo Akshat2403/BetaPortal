@@ -26,7 +26,7 @@ const Aikyam = ({ name }) => {
       [aikyam1, aikyam2, aikyam3],
     ],
     SAFHER: [
-      "Women have walked into space, elected as Heads of States; they have proven themselves equal to men in every way. Yet they are not safe in their immediate surroundings. The sad reality is that we live in an increasingly violent society where the fear of crime is ever-present. To address this situation and take a step forward, Alcheringa organized SafHer, a campaign on women’s safety. SafHer highlights that every woman must raise her voice against any misconduct and get perpetrators to justice.",
+      "Women have shattered barriers, venturing into space and assuming leadership roles as Heads of States, unequivocally proving their equality with men. However, the unfortunate truth persists: women are not safe in their immediate surroundings. Our society is marred by escalating violence, where the fear of crime lingers. In response, Alcheringa initiated SafHer, a campaign intertwining women's safety, upliftment, and empowerment. SafHer empowers women to raise their voices, hold perpetrators accountable, and create a society where they flourish with confidence and freedom, uniting safety and empowerment to realize their true potential.",
       [safher1, safher2, safher3],
     ],
     MANSHAKTI: [
