@@ -126,7 +126,7 @@
     justify-self: start;
     position: relative;
     left:-12vw;
-    top:-100vw;
+    top:-96vw;
     background: url('../Images/bgd.png');
     background-size: 15vw;
     /* mask-repeat: no-repeat; */
@@ -141,7 +141,7 @@
     height: 10vw;
     width: 10vw;
     position: relative;
-    top: -22vw;
+    top: -19vw;
     right: -80vw;
     background-image: url("../Images/Maskgdots.png");
     background-size: 10vw;
@@ -152,7 +152,7 @@
     height: 10vw;
     width: 10vw;
     position: relative;
-    top: -31vw;
+    top: -29vw;
     right: 4vw;
     background-image: url("../Images/Maskgdots.png");
     background-size: 10vw;

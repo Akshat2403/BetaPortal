@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc0dcfa8.css",
+    "main.css": "/static/css/main.fe160e6d.css",
     "main.js": "/static/js/main.39aefc4a.js",
     "static/media/samartha.jpg": "/static/media/samartha.ece5b89e327bf81c7712.jpg",
     "static/media/alcher2019.jpg": "/static/media/alcher2019.e3c6d1f48b2cf909cee3.jpg",
@@ -109,11 +109,11 @@
     "static/media/teams_rectangle2.svg": "/static/media/teams_rectangle2.ede5321ffaa1cceb965f18130d8604bd.svg",
     "static/media/teams_rectangle4.svg": "/static/media/teams_rectangle4.a0fd9bf73187db0fb077c41fcb802565.svg",
     "static/media/purple_triangle.svg": "/static/media/purple_triangle.968a7c556a08e18c13e9234fbd346d33.svg",
-    "main.cc0dcfa8.css.map": "/static/css/main.cc0dcfa8.css.map",
+    "main.fe160e6d.css.map": "/static/css/main.fe160e6d.css.map",
     "main.39aefc4a.js.map": "/static/js/main.39aefc4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc0dcfa8.css",
+    "static/css/main.fe160e6d.css",
     "static/js/main.39aefc4a.js"
   ]
 }
