@@ -17,6 +17,8 @@ import c9 from "./images/art.jpg";
 import c10 from "./images/dd.jpg";
 import c11 from "./images/c11.jpg";
 import c12 from "./images/lca.jpg";
+import rocko from './images/rocko.jpg'
+import pd from './images/pd.jpg'
 
 const Main = () => {
   return (
@@ -27,18 +29,18 @@ const Main = () => {
           <div
             className={`${maincss.item} ${maincss.item1}`}
             style={{
-              backgroundImage: `url(${fc1})`,
+              backgroundImage: `url(${pd})`,
             }}
           >
-            <div className={maincss.box_text}>Football</div>
+            <div className={maincss.box_text}>Parliamentary Debate</div>
           </div>
           <div
             className={`${maincss.item} ${maincss.itemspan2}`}
             style={{
-              backgroundImage: `url(${fc3})`,
+              backgroundImage: `url(${rocko})`,
             }}
           >
-            <div className={maincss.box_text}>Quiz</div>
+            <div className={maincss.box_text}>Rocko-Phonix</div>
           </div>
           <div
             className={`${maincss.item} ${maincss.item3}`}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fe160e6d.css",
-    "main.js": "/static/js/main.39aefc4a.js",
+    "main.js": "/static/js/main.6b51a409.js",
     "static/media/samartha.jpg": "/static/media/samartha.ece5b89e327bf81c7712.jpg",
     "static/media/alcher2019.jpg": "/static/media/alcher2019.e3c6d1f48b2cf909cee3.jpg",
     "static/media/prithvi2.jpg": "/static/media/prithvi2.43046ce7a9743d6ff0e2.jpg",
@@ -15,7 +15,9 @@
     "static/media/informals.jpg": "/static/media/informals.e1392cb108d6fc13f593.jpg",
     "static/media/alcher2022.jpg": "/static/media/alcher2022.f8335e078a768f2316ea.jpg",
     "static/media/Heading-Pro-Bold-trial.ttf": "/static/media/Heading-Pro-Bold-trial.49bc8c7c32f0737cc017.ttf",
+    "static/media/rocko.jpg": "/static/media/rocko.96926749fc394551f2b7.jpg",
     "static/media/rachit.png": "/static/media/rachit.4f7e94f5a4a230b2c563.png",
+    "static/media/pd.jpg": "/static/media/pd.1f1835840d6fb14271ff.jpg",
     "static/media/safher1.jpg": "/static/media/safher1.0597ba8c6625fa607025.jpg",
     "static/media/man2.jpg": "/static/media/man2.600b2c301f09d2171c9a.jpg",
     "static/media/Anurag.jpg": "/static/media/Anurag.96821ffe096182fe93aa.jpg",
@@ -110,10 +112,10 @@
     "static/media/teams_rectangle4.svg": "/static/media/teams_rectangle4.a0fd9bf73187db0fb077c41fcb802565.svg",
     "static/media/purple_triangle.svg": "/static/media/purple_triangle.968a7c556a08e18c13e9234fbd346d33.svg",
     "main.fe160e6d.css.map": "/static/css/main.fe160e6d.css.map",
-    "main.39aefc4a.js.map": "/static/js/main.39aefc4a.js.map"
+    "main.6b51a409.js.map": "/static/js/main.6b51a409.js.map"
   },
   "entrypoints": [
     "static/css/main.fe160e6d.css",
-    "static/js/main.39aefc4a.js"
+    "static/js/main.6b51a409.js"
   ]
 }

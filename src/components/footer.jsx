@@ -6,6 +6,7 @@ import facebookp from "./images/facebook.svg";
 import twitterp from "./images/twitter.svg";
 import footer_logo from "./images/Footer_logo.svg";
 import linkedinp from "./images/linkedin.svg";
+import threads from "./images/threads.png";
 
 class Footer extends Component {
   render() {
@@ -47,14 +48,23 @@ class Footer extends Component {
             </div>
             <div className="flex flex-col items-end footer-right dm-sans">
               <div>For business- related </div>
-              <div>queries, cntact</div>
+              <div>queries, contact</div>
               <div>
                 alcheringa@iitg.ac.in
                 <br />
                 <br />
               </div>
               <div className="flex flex-row items-center icons-all">
-                <div className="mx-2 social-icons">
+                <div className="mx-2 social-icons flex justify-between">
+                  <a
+                    href="https://www.threads.net/@alcheringaiitg"
+                    target="_blank"
+                  >
+                    <img
+                      src={threads}
+                      style={{ height: 35, marginRight: "1vw" }}
+                    />
+                  </a>
                   <a
                     href="https://www.instagram.com/alcheringaiitg/"
                     target="_blank"

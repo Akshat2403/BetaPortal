@@ -42,15 +42,7 @@ const Menu = (ind) => {
       >
         Initiatives
       </a>
-      <a
-        className={`${styles.individual} ${
-          ind.ind == 3 ? styles.active : styles.inactive
-        }`}
-        // style={ind == 3 ? stylesheet.active : stylesheet.inactive}
-        href="/teams/"
-      >
-        Team
-      </a>
+
       <a
         className={`${styles.individual} ${
           ind.ind == 4 ? styles.active : styles.inactive
@@ -59,6 +51,15 @@ const Menu = (ind) => {
         href="/competitions/"
       >
         Competitions
+      </a>
+      <a
+        className={`${styles.individual} ${
+          ind.ind == 3 ? styles.active : styles.inactive
+        }`}
+        // style={ind == 3 ? stylesheet.active : stylesheet.inactive}
+        href="/teams/"
+      >
+        Team
       </a>
     </div>
   );
