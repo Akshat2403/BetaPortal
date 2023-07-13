@@ -60,10 +60,7 @@ class Footer extends Component {
                     href="https://www.threads.net/@alcheringaiitg"
                     target="_blank"
                   >
-                    <img
-                      src={threads}
-                      style={{ height: 35, marginRight: "1vw" }}
-                    />
+                    <img src={threads} style={{ height: 35 }} />
                   </a>
                 </div>
                 <div className="mx-2 social-icons flex justify-between">
