@@ -29,12 +29,12 @@ class Footer extends Component {
         >
           <div className="flex flex-row justify-between footer-items dm-sans">
             <div style={{ width: "33%" }}>
-              Anurag - PR Head
+              Anurag <br /> PR Head
               <br />
               +91-70615-20276
               <br />
               <br />
-              Ankit Kumar - PR Head
+              Ankit Kumar <br /> PR Head
               <br />
               +91-83403-49585
               <br />
@@ -65,6 +65,8 @@ class Footer extends Component {
                       style={{ height: 35, marginRight: "1vw" }}
                     />
                   </a>
+                </div>
+                <div className="mx-2 social-icons flex justify-between">
                   <a
                     href="https://www.instagram.com/alcheringaiitg/"
                     target="_blank"

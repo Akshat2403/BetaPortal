@@ -150,7 +150,8 @@ const Middlepart = ({ setScrollRef }) => {
           </Button>
         </div>
       </div>
-      <div id="anim" className={styles.animate}>
+      <div className={isHovered?styles.grabbed:styles.grab}>
+      <div id="anim" className={`${styles.animate}`}>
         <div className={styles.first}>
           <div
             id="anim"
@@ -223,7 +224,8 @@ const Middlepart = ({ setScrollRef }) => {
             <Aikyam name="UDAAN"></Aikyam>
           </div>
         </div>
-      </div>
+        </div>
+        </div>
     </div>
   );
 };

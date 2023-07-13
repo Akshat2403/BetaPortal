@@ -20,6 +20,7 @@
 }
 
 .icons-all {
+  flex-wrap: wrap;
   justify-content: right;
 }
 .footer-img-2 {
@@ -41,6 +42,10 @@
 .bottom-tag {
   font-size: 11vw;
   font-weight: 500;
+}
+.social-icons img {
+  height: 5vw !important;
+  max-height: 24px;
 }
 
 @media only screen and (max-width: 720px) {
@@ -71,9 +76,6 @@
     transform: translate(0, -50px);
     z-index: -1;
   }
-  .social-icons img {
-    height: 17px !important;
-  }
 }
 
 .flex {
@@ -87,6 +89,7 @@
 }
 
 .social-icons {
+  margin-bottom: 3vw;
   font-size: 2vw !important;
 }
 
