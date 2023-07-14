@@ -17,9 +17,9 @@ function EventsIntro() {
           <div className={styles.description}>
             Alcheringa has more than 80 events spread across various genres like
             fashion, music, art, sports, etc. They take place during the three
-            days with the prize distribution on the last day. People from all
-            over the country participate in these events to win exciting prizes
-            and goodies.
+            days in which many events take place which includes panel
+            discussions with various famous creators, informal activities like
+            hot air balloon, ATV rides, paint ball shoot etc.
           </div>
         </div>
         <img
