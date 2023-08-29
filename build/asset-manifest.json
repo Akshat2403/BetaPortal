@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.bef223d6.css",
-    "main.js": "/static/js/main.a204dcdf.js",
+    "main.js": "/static/js/main.67c199d8.js",
     "static/media/samartha.jpg": "/static/media/samartha.ece5b89e327bf81c7712.jpg",
     "static/media/alcher2019.jpg": "/static/media/alcher2019.e3c6d1f48b2cf909cee3.jpg",
     "static/media/prithvi2.jpg": "/static/media/prithvi2.43046ce7a9743d6ff0e2.jpg",
     "static/media/alcher_image.png": "/static/media/alcher_image.fe917ad29b88592f1f00.png",
     "static/media/NEU2.png": "/static/media/NEU2.0196c30f9e81a4de6ce1.png",
     "static/media/NEU3.png": "/static/media/NEU3.404ba3a7d5cd86e96623.png",
+    "static/media/fc4.jpg": "/static/media/fc4.4f4903513990e040e0fe.jpg",
     "static/media/fc2.jpg": "/static/media/fc2.05bd140167e7d9886744.jpg",
     "static/media/alcher2020.jpg": "/static/media/alcher2020.cb43e9ec81419b71f45d.jpg",
     "static/media/NEU1.png": "/static/media/NEU1.42717408bad6fa252717.png",
@@ -72,7 +73,6 @@
     "static/media/MG.png": "/static/media/MG.0d1bc70ab41e1fbdd9ab.png",
     "static/media/c2.jpg": "/static/media/c2.b47307ee79725dd497a3.jpg",
     "static/media/c1.jpg": "/static/media/c1.bc7f3315fd40842b6b84.jpg",
-    "static/media/fc4.jpg": "/static/media/fc4.85c30b0d9bdc297aa3b8.jpg",
     "static/media/Shantanu.jpg": "/static/media/Shantanu.f81b37d80b46c88e4f96.jpg",
     "static/media/Pratham.jpg": "/static/media/Pratham.964853b8e1f4c61257fa.jpg",
     "static/media/Lakshya.jpg": "/static/media/Lakshya.6b771400f911c2415366.jpg",
@@ -114,10 +114,10 @@
     "static/media/teams_rectangle4.svg": "/static/media/teams_rectangle4.a0fd9bf73187db0fb077c41fcb802565.svg",
     "static/media/purple_triangle.svg": "/static/media/purple_triangle.968a7c556a08e18c13e9234fbd346d33.svg",
     "main.bef223d6.css.map": "/static/css/main.bef223d6.css.map",
-    "main.a204dcdf.js.map": "/static/js/main.a204dcdf.js.map"
+    "main.67c199d8.js.map": "/static/js/main.67c199d8.js.map"
   },
   "entrypoints": [
     "static/css/main.bef223d6.css",
-    "static/js/main.a204dcdf.js"
+    "static/js/main.67c199d8.js"
   ]
 }
