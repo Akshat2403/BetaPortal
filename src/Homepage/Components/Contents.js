@@ -41,8 +41,8 @@ const Contents = () => {
             </a>
           </div>
           <div>
-            <a href="/teams/" className={styles.button2}>
-              Meet the Team
+            <a href="/initiatives/" className={styles.button2}>
+              Initiatives
             </a>
           </div>
         </div>
@@ -60,8 +60,8 @@ const Contents = () => {
             </a>
           </div>
           <div>
-            <a href="/initiatives/" className={styles.button4}>
-              Initiatives
+            <a href="/teams/" className={styles.button4}>
+              Meet the Team
             </a>
           </div>
         </div>

@@ -49,7 +49,7 @@ const Main = () => {
             }}
           >
             <div className={maincss.box_text}>
-              Critical<br></br> Damage
+              Step Up
             </div>
           </div>
           <div
@@ -157,14 +157,14 @@ const Main = () => {
               backgroundImage: `url(${c11})`,
             }}
           >
-            <div className={maincss.box_text}>Critical Damage</div>
+            {/* <div className={maincss.box_text}>Critical Damage</div>
           </div>
           <div
             className={`${maincss.box} ${maincss.item3}`}
             style={{
               backgroundImage: `url(${c12})`,
             }}
-          >
+          > */}
             <div className={maincss.box_text}>Lights Camera Action</div>
           </div>
         </div>

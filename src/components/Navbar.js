@@ -42,6 +42,15 @@ const Navbar = (ind) => {
           </a>
           <a
             className={`${styles.individual} ${
+              ind.ind == 4 ? styles.active : styles.inactive
+            }`}
+            // style={ind == 4 ? stylesheet.active : stylesheet.inactive}
+            href="/competitions/"
+          >
+            Competitions
+          </a>
+          <a
+            className={`${styles.individual} ${
               ind.ind == 1 ? styles.active : styles.inactive
             }`}
             // style={ind == 1 ? stylesheet.active : stylesheet.inactive}
@@ -59,15 +68,7 @@ const Navbar = (ind) => {
             Initiatives
           </a>
           
-          <a
-            className={`${styles.individual} ${
-              ind.ind == 4 ? styles.active : styles.inactive
-            }`}
-            // style={ind == 4 ? stylesheet.active : stylesheet.inactive}
-            href="/competitions/"
-          >
-            Competitions
-          </a>
+
           <a
             className={`${styles.individual} ${
               ind.ind == 3 ? styles.active : styles.inactive
