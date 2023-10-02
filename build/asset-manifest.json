@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bef223d6.css",
-    "main.js": "/static/js/main.67c199d8.js",
+    "main.css": "/static/css/main.24bfba9d.css",
+    "main.js": "/static/js/main.c0b2aa8c.js",
     "static/media/samartha.jpg": "/static/media/samartha.ece5b89e327bf81c7712.jpg",
     "static/media/alcher2019.jpg": "/static/media/alcher2019.e3c6d1f48b2cf909cee3.jpg",
     "static/media/prithvi2.jpg": "/static/media/prithvi2.43046ce7a9743d6ff0e2.jpg",
@@ -99,8 +99,8 @@
     "static/media/grabbing.png": "/static/media/grabbing.e89e8b85315799d7b7e2.png",
     "static/media/Footer_logo.svg": "/static/media/Footer_logo.4ac14fe2f24a0443a9bc72a28b72e14c.svg",
     "static/media/instagram.svg": "/static/media/instagram.1b60b125a08b22a11bec20661d936d5a.svg",
-    "static/media/twitter.svg": "/static/media/twitter.0c4a401af20e00f103994c7f366c3ea2.svg",
     "index.html": "/index.html",
+    "static/media/twitter.svg": "/static/media/twitter.0c4a401af20e00f103994c7f366c3ea2.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.37f3a75118c9122ebc876d0931c4190d.svg",
     "static/media/events_component_scissors.svg": "/static/media/events_component_scissors.e209954de14629f202be83634bc75c3f.svg",
     "static/media/youtube.svg": "/static/media/youtube.c09205d584947e98d125401e12b39aba.svg",
@@ -113,11 +113,11 @@
     "static/media/teams_rectangle2.svg": "/static/media/teams_rectangle2.ede5321ffaa1cceb965f18130d8604bd.svg",
     "static/media/teams_rectangle4.svg": "/static/media/teams_rectangle4.a0fd9bf73187db0fb077c41fcb802565.svg",
     "static/media/purple_triangle.svg": "/static/media/purple_triangle.968a7c556a08e18c13e9234fbd346d33.svg",
-    "main.bef223d6.css.map": "/static/css/main.bef223d6.css.map",
-    "main.67c199d8.js.map": "/static/js/main.67c199d8.js.map"
+    "main.24bfba9d.css.map": "/static/css/main.24bfba9d.css.map",
+    "main.c0b2aa8c.js.map": "/static/js/main.c0b2aa8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.bef223d6.css",
-    "static/js/main.67c199d8.js"
+    "static/css/main.24bfba9d.css",
+    "static/js/main.c0b2aa8c.js"
   ]
 }
