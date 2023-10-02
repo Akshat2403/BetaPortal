@@ -8,6 +8,7 @@ import { useState } from "react";
 
 const Navbar = (ind) => {
   const [count, setCount] = useState(0);
+  const [active, setActive] = useState(0);
   return (
     <div>
       <div
@@ -67,8 +68,53 @@ const Navbar = (ind) => {
           >
             Initiatives
           </a>
-          
 
+          <a
+            className={`${styles.individual} ${styles.inactive}`}
+            // style={ind == 3 ? stylesheet.active : stylesheet.inactive}
+            target="blank"
+            href="https://iitgmun.alcheringa.in/"
+          >
+            MUN
+          </a>
+          <div>
+            <div
+              className={`${styles.individual} ${styles.inactive}`}
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              Programs
+              <i
+                class="fa fa-caret-down"
+                aria-hidden="true"
+                style={{ marginLeft: "10px" }}
+              ></i>
+            </div>
+            <div
+              className={active ? `${styles.down_active}` : `${styles.down}`}
+            >
+              <a
+                className={`${styles.individual} ${
+                  ind.ind == 3 ? styles.active : styles.inactive
+                }`}
+                // style={ind == 3 ? stylesheet.active : stylesheet.inactive}
+                href="https://ambassador.alcheringa.in/"
+                target="black"
+              >
+                Campus Ambassador
+              </a>
+              {/* <a
+                className={`${styles.individual} ${
+                  ind.ind == 3 ? styles.active : styles.inactive
+                }`}
+                // style={ind == 3 ? stylesheet.active : stylesheet.inactive}
+                href="/teams/"
+              >
+                Team
+              </a> */}
+            </div>
+          </div>
           <a
             className={`${styles.individual} ${
               ind.ind == 3 ? styles.active : styles.inactive

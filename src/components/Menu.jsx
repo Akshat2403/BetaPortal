@@ -51,8 +51,21 @@ const Menu = (ind) => {
       >
         Initiatives
       </a>
-
-
+      <a
+        className={`${styles.individual} ${styles.inactive}`}
+        // style={ind == 3 ? stylesheet.active : stylesheet.inactive}
+        target="blank"
+        href="https://iitgmun.alcheringa.in/"
+      >
+        MUN
+      </a>
+      <a
+        href="https://ambassador.alcheringa.in/"
+        className={`${styles.individual} ${styles.inactive}`}
+        target="blank"
+      >
+        Campus Ambassador
+      </a>
       <a
         className={`${styles.individual} ${
           ind.ind == 3 ? styles.active : styles.inactive

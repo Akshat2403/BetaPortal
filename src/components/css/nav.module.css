@@ -73,7 +73,21 @@
   z-index: 99;
   display: none;
 }
-
+.down {
+  /* display: none; */
+  display: none;
+}
+.down_active {
+  /* display: none; */
+  display: flex;
+  top: 5vw;
+  position: absolute;
+  flex-direction: column;
+  padding: 1vw 1vw 1vw 0;
+  backdrop-filter: blur(2px);
+  /* box-shadow: 1px 1px rgba(89, 89, 89, 0.5); */
+  background-color: rgba(24, 24, 24, 0.3);
+}
 @media screen and (max-width: 768px) {
   .navFixed {
     position: fixed;

@@ -184,7 +184,7 @@ function getBoxesMUN(num) {
       name="Samarth Jhunjhunwala"
       designation="Secretary General"
       number="+91 7981828510"
-      // email="asdasd@gmail.com"
+      email="iitgmun@alcheringa.in"
     />
   );
   array.push(
@@ -193,7 +193,7 @@ function getBoxesMUN(num) {
       name="Pratham Garg"
       designation="Director General"
       number="+91 7011533630"
-      // email="asdasd@gmail.com"
+      email="iitgmun@alcheringa.in"
     />
   );
 
