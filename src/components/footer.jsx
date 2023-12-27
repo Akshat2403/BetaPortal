@@ -31,12 +31,12 @@ class Footer extends Component {
             <div style={{ width: "33%" }}>
               Anurag <br /> PR Head
               <br />
-              +91-70615-20276
+              +91-98645-58336
               <br />
               <br />
               Ankit Kumar <br /> PR Head
               <br />
-              +91-83403-49585
+              +91-80922-67185
               <br />
               <br />
             </div>
