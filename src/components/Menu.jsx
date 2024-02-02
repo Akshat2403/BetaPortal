@@ -75,6 +75,14 @@ const Menu = (ind) => {
       >
         Team
       </a>
+      <a
+            className={`${styles.individual} ${styles.inactive}`}
+            // style={ind == 3 ? stylesheet.active : stylesheet.inactive}
+            target="blank"
+            href="https://registration.alcheringa.in/"
+          >
+            Register
+          </a>
     </div>
   );
 };
